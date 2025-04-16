@@ -1,0 +1,247 @@
+<HTML>
+<HEAD><TITLE>PAD Specification File</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Pad"></A>PAD Specification File
+***************************
+
+PART TYPE:        LCMXO2-256HC
+Performance Grade:      4
+PACKAGE:          TQFP100
+Package Status:                     Final          Version 1.41
+
+Mon Jan 13 19:49:41 2025
+
+Pinout by Port Name:
++----------------+----------+--------------+------+-----------+-----------+--------------------------------------+
+| Port Name      | Pin/Bank | Buffer Type  | Site | PG Enable | BC Enable | Properties                           |
++----------------+----------+--------------+------+-----------+-----------+--------------------------------------+
+| A0             | 16/3     | LVCMOS33_IN  | PL5A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| A1             | 17/3     | LVCMOS33_IN  | PL5B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_AS         | 25/3     | LVCMOS33_IN  | PL6B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_CPU        | 43/2     | LVCMOS33_OUT | PB7D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_DS         | 13/3     | LVCMOS33_IN  | PL3D |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_FC0        | 1/3      | LVCMOS33_IN  | PL2A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_FC1        | 12/3     | LVCMOS33_IN  | PL3C |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_FC2        | 20/3     | LVCMOS33_IN  | PL5C |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_IACK_AVEC  | 48/2     | LVCMOS33_OUT | PB9A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_MPU_DSACK0 | 49/2     | LVCMOS33_OUT | PB9B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_MPU_DSACK1 | 39/2     | LVCMOS33_OUT | PB4D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_RD         | 42/2     | LVCMOS33_OUT | PB7C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_SEL_0      | 4/3      | LVCMOS33_IN  | PL2D |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_SEL_1      | 53/1     | LVCMOS33_IN  | PR6B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_SEL_4toB   | 2/3      | LVCMOS33_IN  | PL2B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_SEL_C      | 51/1     | LVCMOS33_IN  | PR6D |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_SEL_F      | 3/3      | LVCMOS33_IN  | PL2C |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_WAIT1      | 52/1     | LVCMOS33_IN  | PR6C |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_WAIT2      | 7/3      | LVCMOS33_IN  | PL3A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| INV_WR         | 41/2     | LVCMOS33_OUT | PB7B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_WRL        | 40/2     | LVCMOS33_OUT | PB7A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_WRLL       | 32/2     | LVCMOS33_OUT | PB2D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_WRLM       | 31/2     | LVCMOS33_OUT | PB2C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_WRU        | 35/2     | LVCMOS33_OUT | PB4B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_WRUM       | 28/2     | LVCMOS33_OUT | PB2B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| INV_WRUU       | 27/2     | LVCMOS33_OUT | PB2A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| PLDCLK         | 38/2     | LVCMOS33_IN  | PB4C |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| R_W            | 8/3      | LVCMOS33_IN  | PL3B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| SIZ0           | 21/3     | LVCMOS33_IN  | PL5D |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| SIZ1           | 24/3     | LVCMOS33_IN  | PL6A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
++----------------+----------+--------------+------+-----------+-----------+--------------------------------------+
+
+Vccio by Bank:
++------+-------+
+| Bank | Vccio |
++------+-------+
+| 1    | 3.3V  |
+| 2    | 3.3V  |
+| 3    | 3.3V  |
++------+-------+
+
+
+<A name="pad_vref"></A><B><U><big>Vref by Bank:</big></U></B>
++------+-----+-----------------+---------+
+| Vref | Pin | Bank # / Vref # | Load(s) |
++------+-----+-----------------+---------+
++------+-----+-----------------+---------+
+
+<A name="pad_pin"></A><B><U><big>Pinout by Pin Number:</big></U></B>
++----------+-----------------------+------------+--------------+------+---------------+-----------+-----------+
+| Pin/Bank | Pin Info              | Preference | Buffer Type  | Site | Dual Function | PG Enable | BC Enable |
++----------+-----------------------+------------+--------------+------+---------------+-----------+-----------+
+| 1/3      | INV_FC0               |            | LVCMOS33_IN  | PL2A |               |           |           |
+| 2/3      | INV_SEL_4toB          |            | LVCMOS33_IN  | PL2B |               |           |           |
+| 3/3      | INV_SEL_F             |            | LVCMOS33_IN  | PL2C | PCLKT3_2      |           |           |
+| 4/3      | INV_SEL_0             |            | LVCMOS33_IN  | PL2D | PCLKC3_2      |           |           |
+| 7/3      | INV_WAIT2             |            | LVCMOS33_IN  | PL3A |               |           |           |
+| 8/3      | R_W                   |            | LVCMOS33_IN  | PL3B |               |           |           |
+| 12/3     | INV_FC1               |            | LVCMOS33_IN  | PL3C | PCLKT3_1      |           |           |
+| 13/3     | INV_DS                |            | LVCMOS33_IN  | PL3D | PCLKC3_1      |           |           |
+| 16/3     | A0                    |            | LVCMOS33_IN  | PL5A |               |           |           |
+| 17/3     | A1                    |            | LVCMOS33_IN  | PL5B |               |           |           |
+| 20/3     | INV_FC2               |            | LVCMOS33_IN  | PL5C | PCLKT3_0      |           |           |
+| 21/3     | SIZ0                  |            | LVCMOS33_IN  | PL5D | PCLKC3_0      |           |           |
+| 24/3     | SIZ1                  |            | LVCMOS33_IN  | PL6A |               |           |           |
+| 25/3     | INV_AS                |            | LVCMOS33_IN  | PL6B |               |           |           |
+| 27/2     | INV_WRUU              |            | LVCMOS33_OUT | PB2A | CSSPIN        |           |           |
+| 28/2     | INV_WRUM              |            | LVCMOS33_OUT | PB2B |               |           |           |
+| 31/2     | INV_WRLM              |            | LVCMOS33_OUT | PB2C | MCLK/CCLK     |           |           |
+| 32/2     | INV_WRLL              |            | LVCMOS33_OUT | PB2D | SO/SPISO      |           |           |
+| 34/2     |     unused, PULL:DOWN |            |              | PB4A | PCLKT2_0      |           |           |
+| 35/2     | INV_WRU               |            | LVCMOS33_OUT | PB4B | PCLKC2_0      |           |           |
+| 38/2     | PLDCLK                |            | LVCMOS33_IN  | PB4C | PCLKT2_1      |           |           |
+| 39/2     | INV_MPU_DSACK1        |            | LVCMOS33_OUT | PB4D | PCLKC2_1      |           |           |
+| 40/2     | INV_WRL               |            | LVCMOS33_OUT | PB7A |               |           |           |
+| 41/2     | INV_WR                |            | LVCMOS33_OUT | PB7B |               |           |           |
+| 42/2     | INV_RD                |            | LVCMOS33_OUT | PB7C |               |           |           |
+| 43/2     | INV_CPU               |            | LVCMOS33_OUT | PB7D |               |           |           |
+| 48/2     | INV_IACK_AVEC         |            | LVCMOS33_OUT | PB9A | SN            |           |           |
+| 49/2     | INV_MPU_DSACK0        |            | LVCMOS33_OUT | PB9B | SI/SISPI      |           |           |
+| 51/1     | INV_SEL_C             |            | LVCMOS33_IN  | PR6D |               |           |           |
+| 52/1     | INV_WAIT1             |            | LVCMOS33_IN  | PR6C |               |           |           |
+| 53/1     | INV_SEL_1             |            | LVCMOS33_IN  | PR6B |               |           |           |
+| 54/1     |     unused, PULL:DOWN |            |              | PR6A |               |           |           |
+| 57/1     |     unused, PULL:DOWN |            |              | PR5D |               |           |           |
+| 58/1     |     unused, PULL:DOWN |            |              | PR5C |               |           |           |
+| 62/1     |     unused, PULL:DOWN |            |              | PR5B | PCLKC1_0      |           |           |
+| 63/1     |     unused, PULL:DOWN |            |              | PR5A | PCLKT1_0      |           |           |
+| 66/1     |     unused, PULL:DOWN |            |              | PR3D |               |           |           |
+| 67/1     |     unused, PULL:DOWN |            |              | PR3C |               |           |           |
+| 70/1     |     unused, PULL:DOWN |            |              | PR3B |               |           |           |
+| 71/1     |     unused, PULL:DOWN |            |              | PR3A |               |           |           |
+| 74/1     |     unused, PULL:DOWN |            |              | PR2B |               |           |           |
+| 75/1     |     unused, PULL:DOWN |            |              | PR2A |               |           |           |
+| 76/0     |     unused, PULL:DOWN |            |              | PT9D | DONE          |           |           |
+| 77/0     |     unused, PULL:DOWN |            |              | PT9C | INITN         |           |           |
+| 81/0     |     unused, PULL:DOWN |            |              | PT9B | PROGRAMN      |           |           |
+| 82/0     |     unused, PULL:DOWN |            |              | PT9A | JTAGENB       |           |           |
+| 85/0     |     unused, PULL:DOWN |            |              | PT8D | SDA/PCLKC0_0  |           |           |
+| 86/0     |     unused, PULL:DOWN |            |              | PT8C | SCL/PCLKT0_0  |           |           |
+| 87/0     |     unused, PULL:DOWN |            |              | PT8B | PCLKC0_1      |           |           |
+| 88/0     |     unused, PULL:DOWN |            |              | PT8A | PCLKT0_1      |           |           |
+| 90/0     | Reserved: sysCONFIG   |            |              | PT7B | TMS           |           |           |
+| 91/0     | Reserved: sysCONFIG   |            |              | PT7A | TCK           |           |           |
+| 94/0     | Reserved: sysCONFIG   |            |              | PT6D | TDI           |           |           |
+| 95/0     | Reserved: sysCONFIG   |            |              | PT6C | TDO           |           |           |
+| 98/0     |     unused, PULL:DOWN |            |              | PT6B |               |           |           |
+| 99/0     |     unused, PULL:DOWN |            |              | PT6A |               |           |           |
++----------+-----------------------+------------+--------------+------+---------------+-----------+-----------+
+
+sysCONFIG Pins:
++----------+--------------------+--------------------+----------+-------------+-------------------+
+| Pad Name | sysCONFIG Pin Name | sysCONFIG Settings | Pin/Bank | Buffer Type | Config Pull Mode  |
++----------+--------------------+--------------------+----------+-------------+-------------------+
+| PT7B     | TMS                | JTAG_PORT=ENABLE   | 90/0     |             | PULLUP            |
+| PT7A     | TCK/TEST_CLK       | JTAG_PORT=ENABLE   | 91/0     |             | NO pull up/down   |
+| PT6D     | TDI/MD7            | JTAG_PORT=ENABLE   | 94/0     |             | PULLUP            |
+| PT6C     | TDO                | JTAG_PORT=ENABLE   | 95/0     |             | PULLUP            |
++----------+--------------------+--------------------+----------+-------------+-------------------+
+
+Dedicated sysCONFIG Pins:
+
+
+List of All Pins' Locate Preferences Based on Final Placement After PAR 
+to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
+
+LOCATE  COMP  "A0"  SITE  "16";
+LOCATE  COMP  "A1"  SITE  "17";
+LOCATE  COMP  "INV_AS"  SITE  "25";
+LOCATE  COMP  "INV_CPU"  SITE  "43";
+LOCATE  COMP  "INV_DS"  SITE  "13";
+LOCATE  COMP  "INV_FC0"  SITE  "1";
+LOCATE  COMP  "INV_FC1"  SITE  "12";
+LOCATE  COMP  "INV_FC2"  SITE  "20";
+LOCATE  COMP  "INV_IACK_AVEC"  SITE  "48";
+LOCATE  COMP  "INV_MPU_DSACK0"  SITE  "49";
+LOCATE  COMP  "INV_MPU_DSACK1"  SITE  "39";
+LOCATE  COMP  "INV_RD"  SITE  "42";
+LOCATE  COMP  "INV_SEL_0"  SITE  "4";
+LOCATE  COMP  "INV_SEL_1"  SITE  "53";
+LOCATE  COMP  "INV_SEL_4toB"  SITE  "2";
+LOCATE  COMP  "INV_SEL_C"  SITE  "51";
+LOCATE  COMP  "INV_SEL_F"  SITE  "3";
+LOCATE  COMP  "INV_WAIT1"  SITE  "52";
+LOCATE  COMP  "INV_WAIT2"  SITE  "7";
+LOCATE  COMP  "INV_WR"  SITE  "41";
+LOCATE  COMP  "INV_WRL"  SITE  "40";
+LOCATE  COMP  "INV_WRLL"  SITE  "32";
+LOCATE  COMP  "INV_WRLM"  SITE  "31";
+LOCATE  COMP  "INV_WRU"  SITE  "35";
+LOCATE  COMP  "INV_WRUM"  SITE  "28";
+LOCATE  COMP  "INV_WRUU"  SITE  "27";
+LOCATE  COMP  "PLDCLK"  SITE  "38";
+LOCATE  COMP  "R_W"  SITE  "8";
+LOCATE  COMP  "SIZ0"  SITE  "21";
+LOCATE  COMP  "SIZ1"  SITE  "24";
+
+
+
+
+
+PAR: Place And Route Diamond (64-bit) 3.14.0.75.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Jan 13 19:49:42 2025
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

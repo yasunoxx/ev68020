@@ -1,0 +1,5 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX1056 |Writing EDF file: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 

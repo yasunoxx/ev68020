@@ -1,0 +1,10 @@
+#Start recording tcl command: 12/25/2024 03:28:50
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run PAR -impl impl1 -forceOne
+prj_run PAR -impl impl1 -forceOne
+prj_run PAR -impl impl1 -forceOne
+prj_run Export -impl impl1 -forceOne
+prj_project save
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+#Stop recording: 12/25/2024 03:41:05

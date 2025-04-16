@@ -1,0 +1,103 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "19:48:27    13-Jan-2025",
+	"Working Directory" : "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1",
+	"Install" : "C:/tools/diamond_3.14/synpbase"
+},
+"hdl_info_gen" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "19:48:06",
+   "Runtime" : "01s",
+   "Executable Run Time" : "00s",
+   "hdl_info_gen" : {
+      "executable" : "bin64/c_vhdl.exe",
+      "Run Directory" : "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1",
+      "Run State" : "Complete",
+      "Return Code" : "0",
+      "Has Errors" : "no",
+      "Run Start Time" : "19:48:06",
+      "Run Time" : "01s",
+      "Exe Run Time" : "00s",
+      "Memory Usage" : "-",
+      "Up-to-date (run skipped)" : "no"
+   }
+},
+"impl1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "19:48:08",
+   "Runtime" : "19s",
+   "Executable Run Time" : "17s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "19:48:08",
+      "Runtime" : "19s",
+      "Executable Run Time" : "17s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "19:48:08",
+         "Runtime" : "11s",
+         "Executable Run Time" : "09s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "19:48:08",
+            "Runtime" : "07s",
+            "Executable Run Time" : "05s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "19:48:08",
+               "Run Time" : "06s",
+               "Exe Run Time" : "05s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "19:48:14",
+               "Run Time" : "01s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "19:48:15",
+            "Run Time" : "04s",
+            "Exe Run Time" : "04s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "19:48:19",
+         "Runtime" : "08s",
+         "Executable Run Time" : "08s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "19:48:19",
+            "Run Time" : "08s",
+            "Exe Run Time" : "08s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

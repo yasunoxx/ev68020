@@ -1,0 +1,792 @@
+#Build: Synplify Pro (R) V-2023.09L-2, Build 349R, Sep 17 2024
+#install: C:\tools\diamond_3.14\synpbase
+#OS: Windows 10 or later
+#Hostname: 4400JPY
+
+# Thu Dec  5 04:39:23 2024
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":8:7:8:17|Top entity is set to ARBITER_TOP.
+Options changed - recompiling
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd'.
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":8:7:8:17|Synthesizing work.arbiter_top.schematic.
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":334:10:334:16|Synthesizing work.fd1s3ax.syn_black_box.
+Post processing for work.fd1s3ax.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":270:10:270:15|Synthesizing work.fd1s1a.syn_black_box.
+Post processing for work.fd1s1a.syn_black_box
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":44:10:44:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":45:10:45:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":599:10:599:11|Synthesizing work.ib.syn_black_box.
+Post processing for work.ib.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1182:10:1182:11|Synthesizing work.ob.syn_black_box.
+Post processing for work.ob.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1098:10:1098:12|Synthesizing work.nd2.syn_black_box.
+Post processing for work.nd2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":64:10:64:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1149:10:1149:12|Synthesizing work.nr3.syn_black_box.
+Post processing for work.nr3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1159:10:1159:12|Synthesizing work.nr4.syn_black_box.
+Post processing for work.nr4.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1140:10:1140:12|Synthesizing work.nr2.syn_black_box.
+Post processing for work.nr2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":73:10:73:13|Synthesizing work.and3.syn_black_box.
+Post processing for work.and3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1276:10:1276:12|Synthesizing work.or2.syn_black_box.
+Post processing for work.or2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":681:10:681:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1107:10:1107:12|Synthesizing work.nd3.syn_black_box.
+Post processing for work.nd3.syn_black_box
+Post processing for work.arbiter_top.schematic
+Running optimization stage 1 on ARBITER_TOP .......
+Finished optimization stage 1 on ARBITER_TOP (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on ARBITER_TOP .......
+Finished optimization stage 2 on ARBITER_TOP (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Thu Dec  5 04:39:28 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  5 04:39:28 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\ev68020_arbiter_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Thu Dec  5 04:39:29 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  5 04:39:30 2024
+
+###########################################################]
+Premap Report
+
+# Thu Dec  5 04:39:31 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 182MB peak: 182MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 197MB)
+
+@W: BN246 |Failed to find top-level module 'arbiter_top' as specified in project file
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\ev68020_arbiter_impl1_scck.rpt 
+See clock summary report "C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\ev68020_arbiter_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 197MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 197MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 202MB peak: 202MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 202MB peak: 204MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 253MB peak: 254MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 254MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=0 on top level netlist ARBITER_TOP 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+
+
+Clock Summary
+******************
+
+          Start                  Requested     Requested     Clock        Clock               Clock
+Level     Clock                  Frequency     Period        Type         Group               Load 
+---------------------------------------------------------------------------------------------------
+0 -       System                 200.0 MHz     5.000         system       system_clkgroup     0    
+                                                                                                   
+0 -       ARBITER_TOP|PLDCLK     200.0 MHz     5.000         inferred     (multiple)          12   
+===================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                       Clock     Source           Clock Pin       Non-clock Pin     Non-clock Pin
+Clock                  Load      Pin              Seq Example     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------
+System                 0         -                -               -                 -            
+                                                                                                 
+ARBITER_TOP|PLDCLK     12        PLDCLK(port)     I174.CK         -                 I116.I(IB)   
+=================================================================================================
+
+@W: MT529 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":218:3:218:6|Found inferred clock ARBITER_TOP|PLDCLK which controls 12 sequential elements including I204. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 12 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       I116.O              IB                     12         I204           
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 256MB peak: 256MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 256MB peak: 256MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 256MB peak: 256MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 172MB peak: 258MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Dec  5 04:39:34 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Dec  5 04:39:35 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 182MB peak: 182MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 197MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 197MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 198MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 199MB peak: 201MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 257MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 257MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 257MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 257MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 257MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     3.78ns		   0 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 257MB peak: 257MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 257MB peak: 257MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 257MB peak: 258MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 257MB peak: 258MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 203MB peak: 258MB)
+
+Writing Analyst data base C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\ev68020_arbiter_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 258MB peak: 258MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\ev68020_arbiter_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 266MB peak: 266MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 266MB peak: 267MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 266MB peak: 267MB)
+
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":320:3:320:6|Blackbox ND2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":280:3:280:6|Blackbox NR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":274:3:274:6|Blackbox NR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":270:3:270:6|Blackbox NR2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":256:3:256:6|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":206:3:206:6|Blackbox ND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock ARBITER_TOP|PLDCLK with period 5.00ns. Please declare a user-defined clock on port PLDCLK.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Dec  5 04:39:41 2024
+#
+
+
+Top view:               ARBITER_TOP
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 3.780
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                       Requested     Estimated      Requested     Estimated               Clock        Clock          
+Starting Clock         Frequency     Frequency      Period        Period        Slack     Type         Group          
+----------------------------------------------------------------------------------------------------------------------
+ARBITER_TOP|PLDCLK     200.0 MHz     819.8 MHz      5.000         1.220         3.780     inferred     (multiple)     
+System                 200.0 MHz     9469.7 MHz     5.000         0.106         4.894     system       system_clkgroup
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------
+System              System              |  5.000       5.000  |  No paths    -      |  No paths    -      |  No paths    -    
+System              ARBITER_TOP|PLDCLK  |  5.000       4.894  |  No paths    -      |  No paths    -      |  No paths    -    
+ARBITER_TOP|PLDCLK  System              |  5.000       3.780  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: ARBITER_TOP|PLDCLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                            Arrival          
+Instance     Reference              Type       Pin     Net       Time        Slack
+             Clock                                                                
+----------------------------------------------------------------------------------
+I171         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_45      1.220       3.780
+I170         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_85      1.044       3.956
+I167         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_130     0.972       4.028
+I168         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_129     0.972       4.028
+I169         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_133     0.972       4.028
+I172         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_128     0.972       4.028
+I173         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_131     0.972       4.028
+I174         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_132     0.972       4.028
+==================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                         Required          
+Instance     Reference              Type     Pin     Net      Time         Slack
+             Clock                                                              
+--------------------------------------------------------------------------------
+I175         ARBITER_TOP|PLDCLK     ND2      B       N_45     5.000        3.780
+I176         ARBITER_TOP|PLDCLK     ND2      B       N_45     5.000        3.780
+I177         ARBITER_TOP|PLDCLK     ND2      B       N_45     5.000        3.780
+I178         ARBITER_TOP|PLDCLK     ND2      B       N_45     5.000        3.780
+I179         ARBITER_TOP|PLDCLK     ND2      B       N_45     5.000        3.780
+I180         ARBITER_TOP|PLDCLK     ND2      B       N_45     5.000        3.780
+I181         ARBITER_TOP|PLDCLK     ND2      B       N_45     5.000        3.780
+I182         ARBITER_TOP|PLDCLK     ND2      B       N_45     5.000        3.780
+I181         ARBITER_TOP|PLDCLK     ND2      A       N_85     5.000        3.956
+I182         ARBITER_TOP|PLDCLK     ND2      A       N_85     5.000        3.956
+================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      1.220
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.780
+
+    Number of logic level(s):                0
+    Starting point:                          I171 / Q
+    Ending point:                            I175 / B
+    The start point is clocked by            ARBITER_TOP|PLDCLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+I171               FD1S1A     Q        Out     1.220     1.220 r     -         
+N_45               Net        -        -       -         -           8         
+I175               ND2        B        In      0.000     1.220 r     -         
+===============================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      1.220
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.780
+
+    Number of logic level(s):                0
+    Starting point:                          I171 / Q
+    Ending point:                            I176 / B
+    The start point is clocked by            ARBITER_TOP|PLDCLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+I171               FD1S1A     Q        Out     1.220     1.220 r     -         
+N_45               Net        -        -       -         -           8         
+I176               ND2        B        In      0.000     1.220 r     -         
+===============================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      1.220
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.780
+
+    Number of logic level(s):                0
+    Starting point:                          I171 / Q
+    Ending point:                            I177 / B
+    The start point is clocked by            ARBITER_TOP|PLDCLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+I171               FD1S1A     Q        Out     1.220     1.220 r     -         
+N_45               Net        -        -       -         -           8         
+I177               ND2        B        In      0.000     1.220 r     -         
+===============================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                 Arrival          
+Instance     Reference     Type     Pin     Net       Time        Slack
+             Clock                                                     
+-----------------------------------------------------------------------
+I161         System        NR2      Z       LMDS      0.000       4.894
+I162         System        NR2      Z       UMDS      0.000       4.894
+I163         System        NR2      Z       UUDS      0.000       4.894
+I164         System        NR2      Z       UDS       0.000       4.894
+I165         System        NR2      Z       LLDS      0.000       4.894
+I166         System        NR2      Z       LDS       0.000       4.894
+I201         System        ND3      Z       N_151     0.000       4.894
+I207         System        OR2      Z       N_164     0.000       4.894
+I208         System        OR2      Z       N_168     0.000       4.894
+I209         System        OR2      Z       N_166     0.000       4.894
+=======================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                    Required          
+Instance     Reference     Type        Pin     Net       Time         Slack
+             Clock                                                         
+---------------------------------------------------------------------------
+I167         System        FD1S1A      D       LMDS      4.894        4.894
+I168         System        FD1S1A      D       UMDS      4.894        4.894
+I169         System        FD1S1A      D       UUDS      4.894        4.894
+I172         System        FD1S1A      D       LDS       4.894        4.894
+I173         System        FD1S1A      D       UDS       4.894        4.894
+I174         System        FD1S1A      D       LLDS      4.894        4.894
+I203         System        FD1S3AX     D       N_164     4.894        4.894
+I204         System        FD1S3AX     D       N_151     4.894        4.894
+I205         System        FD1S3AX     D       N_166     4.894        4.894
+I206         System        FD1S3AX     D       N_168     4.894        4.894
+===========================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.894
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.894
+
+    Number of logic level(s):                0
+    Starting point:                          I161 / Z
+    Ending point:                            I167 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            ARBITER_TOP|PLDCLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+I161               NR2        Z        Out     0.000     0.000 r     -         
+LMDS               Net        -        -       -         -           1         
+I167               FD1S1A     D        In      0.000     0.000 r     -         
+===============================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.894
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.894
+
+    Number of logic level(s):                0
+    Starting point:                          I162 / Z
+    Ending point:                            I168 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            ARBITER_TOP|PLDCLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+I162               NR2        Z        Out     0.000     0.000 r     -         
+UMDS               Net        -        -       -         -           1         
+I168               FD1S1A     D        In      0.000     0.000 r     -         
+===============================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.894
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.894
+
+    Number of logic level(s):                0
+    Starting point:                          I163 / Z
+    Ending point:                            I169 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            ARBITER_TOP|PLDCLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+I163               NR2        Z        Out     0.000     0.000 r     -         
+UUDS               Net        -        -       -         -           1         
+I169               FD1S1A     D        In      0.000     0.000 r     -         
+===============================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 267MB peak: 267MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 267MB peak: 267MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_256hc-4
+
+Register bits: 4 of 256 (2%)
+Latch bits:      8
+PIC Latch:       0
+I/O cells:       30
+
+
+Details:
+AND2:           10
+and3:           5
+FD1S1A:         8
+FD1S3AX:        4
+GSR:            1
+IB:             18
+INV:            5
+nd2:            10
+nd3:            1
+nr2:            7
+nr3:            3
+nr4:            2
+OB:             12
+OR2:            3
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 129MB peak: 267MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
+# Thu Dec  5 04:39:42 2024
+
+###########################################################]

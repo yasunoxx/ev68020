@@ -1,0 +1,206 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn241216030307"></A><B><U><big>pn241216030307</big></U></B>
+#Start recording tcl command: 12/16/2024 02:32:00
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+prj_run PAR -impl impl1 -forceOne
+prj_run Export -impl impl1
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+pwc_command new
+pwc_thermal set -board Medium -heatsink NoHeatSink -airflow 0
+pwc_command save -project "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top_66.666MHz.pcf"
+pgr_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/impl1.xcf"
+prj_project save
+prj_project close
+#Stop recording: 12/16/2024 03:03:07
+
+
+
+<A name="pn241216215337"></A><B><U><big>pn241216215337</big></U></B>
+#Start recording tcl command: 12/16/2024 21:50:45
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+pwc_command open -project "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top_66.666MHz.pcf"
+pwc_command exit
+#Stop recording: 12/16/2024 21:53:37
+
+
+
+<A name="pn241222095259"></A><B><U><big>pn241222095259</big></U></B>
+#Start recording tcl command: 12/22/2024 09:29:08
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run PAR -impl impl1
+prj_run PAR -impl impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run PAR -impl impl1
+prj_run Export -impl impl1 -forceOne
+prj_run Map -impl impl1 -forceOne
+prj_run Map -impl impl1 -forceOne
+prj_run PAR -impl impl1 -forceOne
+prj_run PAR -impl impl1 -forceOne
+prj_run Export -impl impl1 -forceOne
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+pwc_command new
+pwc_thermal set -board Medium -heatsink NoHeatSink -airflow 0
+pwc_command save -project "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top_66.666MHz.pcf"
+pwc_command exit
+#Stop recording: 12/22/2024 09:52:59
+
+
+
+<A name="pn241223023451"></A><B><U><big>pn241223023451</big></U></B>
+#Start recording tcl command: 12/23/2024 01:51:38
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run Export -impl impl1 -forceOne
+prj_run Export -impl impl1 -forceOne
+#Stop recording: 12/23/2024 02:34:51
+
+
+
+<A name="pn241225034105"></A><B><U><big>pn241225034105</big></U></B>
+#Start recording tcl command: 12/25/2024 03:28:50
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run PAR -impl impl1 -forceOne
+prj_run PAR -impl impl1 -forceOne
+prj_run PAR -impl impl1 -forceOne
+prj_run Export -impl impl1 -forceOne
+prj_project save
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+#Stop recording: 12/25/2024 03:41:05
+
+
+
+<A name="pn250106164356"></A><B><U><big>pn250106164356</big></U></B>
+#Start recording tcl command: 1/6/2025 16:37:26
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run Export -impl impl1 -forceAll
+prj_project save
+prj_src remove "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbitor_top_sim1/arbitor_top_sim1.spf"
+prj_project save
+#Stop recording: 1/6/2025 16:43:56
+
+
+
+<A name="pn250110021723"></A><B><U><big>pn250110021723</big></U></B>
+#Start recording tcl command: 1/10/2025 02:17:10
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_project close
+#Stop recording: 1/10/2025 02:17:23
+
+
+
+<A name="pn250110023020"></A><B><U><big>pn250110023020</big></U></B>
+#Start recording tcl command: 1/10/2025 02:25:01
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_project close
+#Stop recording: 1/10/2025 02:30:20
+
+
+
+<A name="pn250110025536"></A><B><U><big>pn250110025536</big></U></B>
+#Start recording tcl command: 1/10/2025 02:50:39
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+pwc_command open -project "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top_64MHz_worst.pcf"
+pwc_thermal set -board Small -heatsink NoHeatSink -airflow 0
+pwc_command save -project "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top_64MHz_worst.pcf"
+prj_project save
+prj_project close
+#Stop recording: 1/10/2025 02:55:36
+
+
+
+<A name="pn250110035918"></A><B><U><big>pn250110035918</big></U></B>
+#Start recording tcl command: 1/10/2025 03:34:28
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run Export -impl impl1 -forceAll
+prj_run Export -impl impl1 -forceOne
+prj_project save
+file copy -force -- "C:/Users/Yasuno/Documents/dev/7seg4/pld-rom/rom_7seg4.vhd" "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/source"
+prj_src add "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/source/rom_7seg4.vhd"
+prj_src remove "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/source/rom_7seg4.vhd"
+prj_run Export -impl impl1 -forceAll
+prj_run Export -impl impl1 -forceOne
+prj_project save
+prj_run Export -impl impl1 -forceOne
+prj_run Export -impl impl1 -forceOne
+prj_project save
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+#Stop recording: 1/10/2025 03:59:18
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

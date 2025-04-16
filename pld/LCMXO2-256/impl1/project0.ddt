@@ -1,0 +1,18 @@
+[Deployment Project]
+version=Lattice Diamond 3.14.0.75.2
+EncryptionVer=1.0
+functionIdx=2
+typeIdx=10
+isRequiredXCFFile=1
+xcfFileName=C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/impl1.xcf
+optionList=Compress Embedded Files;Generate Hex (.c) File
+valueList=On;On
+
+[Input File Info]
+inputFileList=
+familyList=
+deviceList=
+outputFileList=C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/impl1_algo.vme;C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/impl1_data.vme
+
+[Command Line]
+Command="C:/tools/diamond_3.14/bin/nt64/ddtcmd" -oft -slimvme -if "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/impl1.xcf" -hex -ofa "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/impl1_algo.vme" -ofd "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/impl1_data.vme"

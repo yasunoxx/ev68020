@@ -1,0 +1,19 @@
+Frequency Analysis Report:
+-------------------------
+
+Design Name: EV68020_ARBITER
+Part Name: ispLSI2096A-100LQ128
+
+43020 WARNING: Design has only one register level
+==-------------------------------------------------------------------------------------------
+Information for flip-flop:
+
+  Global reset-to-output delay:   1.30
+  Clock-to-output delay:          0.30
+  User reset-to-output delay:     1.30
+  Data-to-output delay:           0.00
+  Setup time:                     1.20
+  Hold time:                      4.00
+  Pulse-width time:               5.00
+
+

@@ -1,0 +1,6 @@
+#Start recording tcl command: 12/7/2024 18:33:31
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1; Project name: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/ev68020_arbiter_impl1.ncd
+eco_design open -ncd {C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/ev68020_arbiter_impl1.ncd}  -prf {C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/ev68020_arbiter_impl1.prf} 
+eco_design drc -all
+eco_design close
+#Stop recording: 12/7/2024 18:33:48

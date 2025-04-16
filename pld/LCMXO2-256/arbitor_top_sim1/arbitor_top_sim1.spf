@@ -1,0 +1,7 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="arbitor_top_sim1" simType="QuestaSim">
+    <Source worklib="work" path="arbitor_top_sim1/arbiter_top.vhd" type="VHDL" langstandard="" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VHDL" name="ARBITER_TOP"/>
+</BaliSimProject>

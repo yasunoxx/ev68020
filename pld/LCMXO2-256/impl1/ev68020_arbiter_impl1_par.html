@@ -1,0 +1,216 @@
+<HTML>
+<HEAD><TITLE>Place & Route Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par"></A>PAR: Place And Route Diamond (64-bit) 3.14.0.75.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Jan 13 19:49:41 2025
+
+C:/tools/diamond_3.14/ispfpga\bin\nt64\par -f ev68020_arbiter_impl1.p2t
+ev68020_arbiter_impl1_map.ncd ev68020_arbiter_impl1.dir
+ev68020_arbiter_impl1.prf -gui -msgset
+C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/promote.xml
+
+
+Preference file: ev68020_arbiter_impl1.prf.
+
+<A name="par_cts"></A><B><U><big>Cost Table Summary</big></U></B>
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      48           -            -            -            -            00           Completed
+* : Design saved.
+
+Total (real) run time for 1-seed: 0 secs 
+
+par done!
+
+Note: user must run &apos;Trace&apos; for timing closure signoff.
+
+Lattice Place and Route Report for Design &quot;ev68020_arbiter_impl1_map.ncd&quot;
+Mon Jan 13 19:49:41 2025
+
+
+<A name="par_best"></A><B><U><big>Best Par Run</big></U></B>
+PAR: Place And Route Diamond (64-bit) 3.14.0.75.2.
+Command Line: par -w -io -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 ev68020_arbiter_impl1_map.ncd ev68020_arbiter_impl1.dir/5_1.ncd ev68020_arbiter_impl1.prf
+Preference file: ev68020_arbiter_impl1.prf.
+Placement level-cost: 5-1.
+
+Loading design for application par from file ev68020_arbiter_impl1_map.ncd.
+Design name: ARBITER_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-256HC
+Package:     TQFP100
+Performance: 4
+Loading device for application par from file &apos;xo2c256.nph&apos; in environment: C:/tools/diamond_3.14/ispfpga.
+Package Status:                     Final          Version 1.41.
+WARNING - par: No delay data will be available.
+Performance Hardware Data Status:   Final          Version 36.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+
+<A name="par_dus"></A><B><U><big>Device utilization summary:</big></U></B>
+
+   PIO (prelim)   30+4(JTAG)/56      61% used
+                  30+4(JTAG)/56      61% bonded
+
+   SLICE             18/128          14% used
+
+
+
+Number of Signals: 70
+Number of Connections: 131
+
+Pin Constraint Summary:
+   0 out of 30 pins locked (0% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    I_PLDCLK (driver: PLDCLK, clk load #: 11)
+
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+.
+
+
+<A name="par_clk"></A><B><U><big>Clock Report</big></U></B>
+
+Global Clock Resources:
+  CLK_PIN    : 1 out of 8 (12%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Global Clocks:
+  PRIMARY &quot;I_PLDCLK&quot; from comp &quot;PLDCLK&quot; on CLK_PIN site &quot;38 (PB4C)&quot;, clk load = 11
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 0 out of 8 (0%)
+
+
+
+
+I/O Usage Summary (final):
+   30 + 4(JTAG) out of 56 (60.7%) PIO sites used.
+   30 + 4(JTAG) out of 56 (60.7%) bonded PIO sites used.
+   Number of PIO comps: 30; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 0 / 14 (  0%)  | -          | -         |
+| 1        | 3 / 14 ( 21%)  | 3.3V       | -         |
+| 2        | 13 / 14 ( 92%) | 3.3V       | -         |
+| 3        | 14 / 14 (100%) | 3.3V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 0 secs 
+
+Dumping design to file ev68020_arbiter_impl1.dir/5_1.ncd.
+
+WARNING - par: Preference FREQUENCY PORT &quot;PLDCLK&quot; 0.000000 MHz ;
+ has an invalid constraint. Please double-check the preference.
+WARNING - par: There are no connections to route.
+Total CPU time 1 secs 
+Total REAL time: 0 secs 
+Completely routed.
+End of route.  0 routed (100.00%); 0 unrouted.
+
+Timing score: 0 
+
+Dumping design to file ev68020_arbiter_impl1.dir/5_1.ncd.
+
+
+48 connections in 70 signals are not completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 48
+PAR_SUMMARY::Worst  slack&lt;setup/&lt;ns&gt;&gt; = &lt;n/a&gt;
+PAR_SUMMARY::Timing score&lt;setup/&lt;ns&gt;&gt; = &lt;n/a&gt;
+PAR_SUMMARY::Worst  slack&lt;hold /&lt;ns&gt;&gt; = &lt;n/a&gt;
+PAR_SUMMARY::Timing score&lt;hold /&lt;ns&gt;&gt; = &lt;n/a&gt;
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 1 secs 
+Total REAL time to completion: 0 secs 
+
+par done!
+
+Note: user must run &apos;Trace&apos; for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

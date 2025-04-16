@@ -1,0 +1,789 @@
+ispEXPERT Compiler Release 2.1.00.02.49.20, May 20 2002 13:06:40
+
+
+Design Parameters
+-----------------
+
+EFFORT:                         MEDIUM (2)
+IGNORE_FIXED_PIN:               OFF
+MAX_GLB_IN:                     11
+MAX_GLB_OUT:                    4
+OUTPUT_FORM:                    VERILOG, VHDL
+OS_VERSION:                     Windows NT 6.2
+PARAM_FILE:                     'c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run5\ispxpert'
+PIN_FILE:                       'c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run5\ev68020_arbiter.xpn'
+STRATEGY:                       DELAY
+TIMING_ANALYZER:                ON 
+USE_GLOBAL_RESET:               ON
+
+
+Design Specification
+--------------------
+
+Design:                         ev68020_arbiter
+Part:                           ispLSI2096A-100LQ128
+
+
+ISP:                            ON
+ISP_EXCEPT_Y2:                  OFF
+PULL:                           UP
+SECURITY:                       OFF
+SLOWSLEW:                       OFF
+
+
+Number of Critical Pins:        0
+Number of Free Pins:            0
+Number of Locked Pins:          31
+Number of Reserved Pins:        0
+
+
+Input Pins
+
+    Pin Name                Pin Attribute
+
+        A0                      LOCK 27, PULLUP
+        A1                      LOCK 28, PULLUP
+        INV_AS                  LOCK 51, PULLUP
+        INV_DS                  LOCK 31, PULLUP
+        INV_FC0                 LOCK 52, PULLUP
+        INV_FC1                 LOCK 53, PULLUP
+        INV_FC2                 LOCK 54, PULLUP
+        INV_SEL_0               LOCK 58, PULLUP
+        INV_SEL_1               LOCK 60, PULLUP
+        INV_SEL_4TO7            LOCK 61, PULLUP
+        INV_SEL_8TOB            LOCK 62, PULLUP
+        INV_SEL_C               LOCK 59, PULLUP
+        INV_SEL_F               LOCK 63, PULLUP
+        PLDCLK                  LOCK 15, PULLUP
+        R_W                     LOCK 32, PULLUP
+        SIZ0                    LOCK 29, PULLUP
+        SIZ1                    LOCK 30, PULLUP
+        WAIT1                   LOCK 56, PULLUP
+        WAIT2                   LOCK 57, PULLUP
+
+
+Output Pins
+
+    Pin Name                Pin Attribute
+
+        INV_CPU                 LOCK 66, PULLUP
+        INV_IACK_AVEC           LOCK 67, PULLUP
+        INV_MPU_DSACK0          LOCK 68, PULLUP
+        INV_MPU_DSACK1          LOCK 69, PULLUP
+        INV_RD                  LOCK 41, PULLUP
+        INV_WR                  LOCK 40, PULLUP
+        INV_WRL                 LOCK 39, PULLUP
+        INV_WRLL                LOCK 37, PULLUP
+        INV_WRLM                LOCK 36, PULLUP
+        INV_WRU                 LOCK 38, PULLUP
+        INV_WRUM                LOCK 35, PULLUP
+        INV_WRUU                LOCK 34, PULLUP
+
+
+Pre-Route Design Statistics
+---------------------------
+
+Number of Macrocells:           21
+Number of GLBs:                 6
+Number of I/Os:                 30
+Number of Nets:                 39
+
+Number of Free Inputs:          0
+Number of Free Outputs:         0
+Number of Free Three-States:    0
+Number of Free Bidi's:          0
+
+Number of Locked Input IOCs:    17
+Number of Locked DIs:           1
+Number of Locked Outputs:       12
+Number of Locked Three-States:  0
+Number of Locked Bidi's:        0
+
+Number of CRIT Outputs:         0
+Number of Global OEs:           0
+Number of External Clocks:      1
+
+
+GLB Utilization (Out of 24):	25%
+I/O Utilization (Out of 99):	30%
+Net Utilization (Out of 195):	20%
+
+
+Nets with Fanout of  1:         29
+Nets with Fanout of  2:         8
+Nets with Fanout of  3:         2
+
+Average Fanout per Net:         1.31
+
+
+GLBs with  4 Input(s):          2
+GLBs with  5 Input(s):          2
+GLBs with  9 Input(s):          1
+GLBs with 12 Input(s):          1
+
+Average Inputs per GLB:         6.50
+
+
+GLBs with  2 Output(s):         1
+GLBs with  3 Output(s):         1
+GLBs with  4 Output(s):         4
+
+Average Outputs per GLB:        3.50
+
+
+Number of GLB Registers:        12
+Number of IOC Registers:        0
+
+
+Post-Route Design Implementation
+--------------------------------
+
+Number of Macrocells:		21
+Number of GLBs:			6
+Number of IOCs:			29
+Number of DIs:			1
+Number of GLB Levels:		2
+
+
+GLB glb00, B3
+
+    12 Input(s)
+        (A0.O, A0X, I6), (INV_AS.O, INV_ASX, I16), (INV_DS.O, 
+        INV_DSX, I1), (INV_SEL_0.O, INV_SEL_0X, I10), (INV_SEL_1.O, 
+        INV_SEL_1X, I0), (INV_SEL_4TO7.O, INV_SEL_4TO7X, I5), 
+        (INV_SEL_8TOB.O, INV_SEL_8TOBX, I2), (INV_SEL_C.O, 
+        INV_SEL_CX, I11), (INV_SEL_F.O, INV_SEL_FX, I3), (WAIT1.O, 
+        WAIT1X, I8), (WAIT2.O, WAIT2X, I9), (glb01.O2, AND_795, I13)
+    3 Output(s)
+        (N_55, O2), (N_21, O0), (N_16, O1)
+    8 Product Term(s)
+
+    Output N_55
+
+        10 Input(s)
+            INV_SEL_4TO7X, INV_SEL_1X, AND_795, WAIT1X, INV_SEL_8TOBX,
+            INV_SEL_CX, INV_ASX, WAIT2X, INV_SEL_FX, INV_SEL_0X
+        1 Fanout(s)
+            INV_MPU_DSACK0.IR
+        6 Product Term(s)
+        2 GLB Level(s)
+
+        N_55.D = (INV_ASX
+            # AND_795 & !INV_SEL_FX
+            # INV_SEL_1X & !WAIT1X & !WAIT2X
+            # INV_SEL_0X & INV_SEL_1X & INV_SEL_CX & !WAIT1X
+            # INV_SEL_1X & INV_SEL_4TO7X & INV_SEL_8TOBX & !WAIT2X
+            # INV_SEL_0X & INV_SEL_1X & INV_SEL_4TO7X & INV_SEL_8TOBX
+            & INV_SEL_CX)
+        N_55.C = PLDCLKX
+        N_55.R = 
+    Output N_21
+
+        1 Input(s)
+            INV_DSX
+        1 Fanout(s)
+            glb03.I12
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        N_21.D = INV_DSX
+        N_21.C = PLDCLKX
+        N_21.R = 
+    Output N_16
+
+        2 Input(s)
+            A0X, INV_DSX
+        1 Fanout(s)
+            glb03.I9
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        N_16.D = !A0X & !INV_DSX
+        N_16.C = PLDCLKX
+        N_16.R = 
+
+GLB glb01, B1
+
+    9 Input(s)
+        (INV_AS.O, INV_ASX, I16), (INV_FC0.O, INV_FC0X, I3), 
+        (INV_FC1.O, INV_FC1X, I2), (INV_FC2.O, INV_FC2X, I1), 
+        (INV_SEL_1.O, INV_SEL_1X, I0), (INV_SEL_4TO7.O, 
+        INV_SEL_4TO7X, I5), (INV_SEL_8TOB.O, INV_SEL_8TOBX, I6), 
+        (INV_SEL_F.O, INV_SEL_FX, I7), (WAIT1.O, WAIT1X, I8)
+    4 Output(s)
+        (N_59, O3), (N_49, O1), (N_47, O0), (AND_795, O2)
+    7 Product Term(s)
+
+    Output N_59
+
+        9 Input(s)
+            INV_SEL_4TO7X, INV_FC0X, INV_SEL_1X, INV_FC2X, WAIT1X,
+            INV_SEL_8TOBX, INV_FC1X, INV_ASX, INV_SEL_FX
+        1 Fanout(s)
+            INV_MPU_DSACK1.IR
+        4 Product Term(s)
+        1 GLB Level(s)
+
+        N_59.D = INV_ASX
+            # INV_SEL_1X & !WAIT1X
+            # INV_SEL_1X & INV_SEL_4TO7X & INV_SEL_8TOBX
+            # INV_FC0X & INV_FC1X & INV_FC2X & !INV_SEL_FX
+        N_59.C = PLDCLKX
+        N_59.R = 
+    Output N_49
+
+        4 Input(s)
+            INV_FC0X, INV_FC2X, INV_FC1X, INV_SEL_FX
+        1 Fanout(s)
+            INV_IACK_AVEC.IR
+        2 Product Term(s)
+        1 GLB Level(s)
+
+        N_49.D = (INV_FC0X & INV_FC1X & INV_FC2X & !INV_SEL_FX)
+            $ VCC
+        N_49.C = PLDCLKX
+        N_49.R = 
+    Output N_47
+
+        3 Input(s)
+            INV_FC0X, INV_FC2X, INV_FC1X
+        1 Fanout(s)
+            INV_CPU.IR
+        2 Product Term(s)
+        1 GLB Level(s)
+
+        N_47.D = (INV_FC0X & INV_FC1X & INV_FC2X)
+            $ VCC
+        N_47.C = PLDCLKX
+        N_47.R = 
+    Output AND_795
+
+        3 Input(s)
+            INV_FC0X, INV_FC2X, INV_FC1X
+        1 Fanout(s)
+            glb00.I13
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_795 = INV_FC0X & INV_FC1X & INV_FC2X
+
+
+GLB glb02, A2
+
+    5 Input(s)
+        (glb05.O0, N_44, I8), (glb04.O3, N_10, I0), (glb05.O1, 
+        N_2, I9), (glb04.O0, N_6, I3), (glb04.O2, N_14, I1)
+    4 Output(s)
+        (AND_828, O0), (AND_827, O1), (AND_825, O2), (AND_824, O3)
+    4 Product Term(s)
+
+    Output AND_828
+
+        2 Input(s)
+            N_2, N_44
+        1 Fanout(s)
+            INV_WRUU.IR
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_828 = N_2 & !N_44
+
+    Output AND_827
+
+        2 Input(s)
+            N_44, N_6
+        1 Fanout(s)
+            INV_WRUM.IR
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_827 = N_6 & !N_44
+
+    Output AND_825
+
+        2 Input(s)
+            N_10, N_44
+        1 Fanout(s)
+            INV_WRLM.IR
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_825 = N_10 & !N_44
+
+    Output AND_824
+
+        2 Input(s)
+            N_44, N_14
+        1 Fanout(s)
+            INV_WRLL.IR
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_824 = N_14 & !N_44
+
+
+GLB glb03, A6
+
+    4 Input(s)
+        (glb05.O0, N_44, I8), (glb00.O0, N_21, I12), (glb04.O1, 
+        N_19, I2), (glb00.O1, N_16, I9)
+    4 Output(s)
+        (AND_826, O0), (AND_823, O1), (AND_822, O2), (AND_821, O3)
+    4 Product Term(s)
+
+    Output AND_826
+
+        2 Input(s)
+            N_44, N_16
+        1 Fanout(s)
+            INV_WRU.IR
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_826 = N_16 & !N_44
+
+    Output AND_823
+
+        2 Input(s)
+            N_19, N_44
+        1 Fanout(s)
+            INV_WRL.IR
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_823 = N_19 & !N_44
+
+    Output AND_822
+
+        2 Input(s)
+            N_21, N_44
+        1 Fanout(s)
+            INV_WR.IR
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_822 = !N_21 & !N_44
+
+    Output AND_821
+
+        2 Input(s)
+            N_21, N_44
+        1 Fanout(s)
+            INV_RD.IR
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        AND_821 = N_44 & !N_21
+
+
+GLB glb04, C2
+
+    5 Input(s)
+        (A0.O, A0X, I9), (A1.O, A1X, I8), (INV_DS.O, INV_DSX, I14), 
+        (SIZ0.O, SIZ0X, I12), (SIZ1.O, SIZ1X, I13)
+    4 Output(s)
+        (N_6, O0), (N_19, O1), (N_14, O2), (N_10, O3)
+    13 Product Term(s)
+
+    Output N_6
+
+        5 Input(s)
+            SIZ0X, A0X, INV_DSX, SIZ1X, A1X
+        1 Fanout(s)
+            glb02.I3
+        3 Product Term(s)
+        1 GLB Level(s)
+
+        N_6.D = A0X & !INV_DSX & !A1X
+            # SIZ1X & !INV_DSX & !A1X
+            # !INV_DSX & !A1X & !SIZ0X
+        N_6.C = PLDCLKX
+        N_6.R = 
+    Output N_19
+
+        4 Input(s)
+            SIZ0X, A0X, INV_DSX, SIZ1X
+        1 Fanout(s)
+            glb03.I2
+        3 Product Term(s)
+        1 GLB Level(s)
+
+        N_19.D = (INV_DSX
+            # SIZ0X & !A0X & !SIZ1X)
+            $ VCC
+        N_19.C = PLDCLKX
+        N_19.R = 
+    Output N_14
+
+        5 Input(s)
+            SIZ0X, A0X, INV_DSX, SIZ1X, A1X
+        1 Fanout(s)
+            glb02.I1
+        4 Product Term(s)
+        1 GLB Level(s)
+
+        N_14.D = A0X & A1X & !INV_DSX
+            # A1X & SIZ1X & !INV_DSX
+            # !SIZ1X & !INV_DSX & !SIZ0X
+            # A0X & SIZ0X & SIZ1X & !INV_DSX
+        N_14.C = PLDCLKX
+        N_14.R = 
+    Output N_10
+
+        5 Input(s)
+            SIZ0X, A0X, INV_DSX, SIZ1X, A1X
+        1 Fanout(s)
+            glb02.I0
+        4 Product Term(s)
+        1 GLB Level(s)
+
+        N_10.D = A1X & !A0X & !INV_DSX
+            # A0X & !INV_DSX & !A1X & !SIZ0X
+            # SIZ0X & SIZ1X & !INV_DSX & !A1X
+            # !SIZ1X & !INV_DSX & !A1X & !SIZ0X
+        N_10.C = PLDCLKX
+        N_10.R = 
+
+GLB glb05, C3
+
+    4 Input(s)
+        (A0.O, A0X, I9), (A1.O, A1X, I8), (INV_DS.O, INV_DSX, I14), 
+        (R_W.O, R_WX, I15)
+    2 Output(s)
+        (N_44, O0), (N_2, O1)
+    2 Product Term(s)
+
+    Output N_44
+
+        1 Input(s)
+            R_WX
+        2 Fanout(s)
+            glb02.I8, glb03.I8
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        N_44.D = R_WX
+        N_44.C = PLDCLKX
+        N_44.R = 
+    Output N_2
+
+        3 Input(s)
+            A0X, INV_DSX, A1X
+        1 Fanout(s)
+            glb02.I9
+        1 Product Term(s)
+        1 GLB Level(s)
+
+        N_2.D = !A0X & !INV_DSX & !A1X
+        N_2.C = PLDCLKX
+        N_2.R = 
+
+Input A0, IO6
+
+    Output A0X
+        3 Fanout(s)
+            glb00.I6, glb04.I9, glb05.I9
+
+
+Input A1, IO7
+
+    Output A1X
+        2 Fanout(s)
+            glb04.I8, glb05.I8
+
+
+Dedicated Input INV_AS, I2
+
+    Output INV_ASX
+        2 Fanout(s)
+            glb01.I16, glb00.I16
+
+
+Output INV_CPU, IO36
+
+    Input (glb01.O0, N_47)
+
+    INV_CPU = N_47
+
+
+Input INV_DS, IO10
+
+    Output INV_DSX
+        3 Fanout(s)
+            glb00.I1, glb04.I14, glb05.I14
+
+
+Input INV_FC0, IO24
+
+    Output INV_FC0X
+        1 Fanout(s)
+            glb01.I3
+
+
+Input INV_FC1, IO25
+
+    Output INV_FC1X
+        1 Fanout(s)
+            glb01.I2
+
+
+Input INV_FC2, IO26
+
+    Output INV_FC2X
+        1 Fanout(s)
+            glb01.I1
+
+
+Output INV_IACK_AVEC, IO37
+
+    Input (glb01.O1, N_49)
+
+    INV_IACK_AVEC = N_49
+
+
+Output INV_MPU_DSACK0, IO38
+
+    Input (glb00.O2, N_55)
+
+    INV_MPU_DSACK0 = N_55
+
+
+Output INV_MPU_DSACK1, IO39
+
+    Input (glb01.O3, N_59)
+
+    INV_MPU_DSACK1 = N_59
+
+
+Output INV_RD, IO19
+
+    Input (glb03.O3, AND_821)
+
+    INV_RD = !AND_821
+
+
+Input INV_SEL_0, IO30
+
+    Output INV_SEL_0X
+        1 Fanout(s)
+            glb00.I10
+
+
+Input INV_SEL_1, IO32
+
+    Output INV_SEL_1X
+        2 Fanout(s)
+            glb01.I0, glb00.I0
+
+
+Input INV_SEL_4TO7, IO33
+
+    Output INV_SEL_4TO7X
+        2 Fanout(s)
+            glb01.I5, glb00.I5
+
+
+Input INV_SEL_8TOB, IO34
+
+    Output INV_SEL_8TOBX
+        2 Fanout(s)
+            glb01.I6, glb00.I2
+
+
+Input INV_SEL_C, IO31
+
+    Output INV_SEL_CX
+        1 Fanout(s)
+            glb00.I11
+
+
+Input INV_SEL_F, IO35
+
+    Output INV_SEL_FX
+        2 Fanout(s)
+            glb01.I7, glb00.I3
+
+
+Output INV_WR, IO18
+
+    Input (glb03.O2, AND_822)
+
+    INV_WR = !AND_822
+
+
+Output INV_WRL, IO17
+
+    Input (glb03.O1, AND_823)
+
+    INV_WRL = !AND_823
+
+
+Output INV_WRLL, IO15
+
+    Input (glb02.O3, AND_824)
+
+    INV_WRLL = !AND_824
+
+
+Output INV_WRLM, IO14
+
+    Input (glb02.O2, AND_825)
+
+    INV_WRLM = !AND_825
+
+
+Output INV_WRU, IO16
+
+    Input (glb03.O0, AND_826)
+
+    INV_WRU = !AND_826
+
+
+Output INV_WRUM, IO13
+
+    Input (glb02.O1, AND_827)
+
+    INV_WRUM = !AND_827
+
+
+Output INV_WRUU, IO12
+
+    Input (glb02.O0, AND_828)
+
+    INV_WRUU = !AND_828
+
+
+Clock Input PLDCLK, Y0
+
+    Output PLDCLKX
+        4 Fanout(s)
+            glb01.CLK0, glb00.CLK0, glb04.CLK0, glb05.CLK0
+
+
+Input R_W, IO11
+
+    Output R_WX
+        1 Fanout(s)
+            glb05.I15
+
+
+Input SIZ0, IO8
+
+    Output SIZ0X
+        1 Fanout(s)
+            glb04.I12
+
+
+Input SIZ1, IO9
+
+    Output SIZ1X
+        1 Fanout(s)
+            glb04.I13
+
+
+Input WAIT1, IO28
+
+    Output WAIT1X
+        2 Fanout(s)
+            glb01.I8, glb00.I8
+
+
+Input WAIT2, IO29
+
+    Output WAIT2X
+        1 Fanout(s)
+            glb00.I9
+
+
+Clock Assignments
+
+    Net Name		    Clock Assignment
+
+        PLDCLKX                 External CLK0
+
+
+GLB and GLB Output Statistics
+
+    GLB Name, Location      GLB Statistics          GLB Output Statistics
+    GLB Output Name         Ins, Outs, PTs          Ins, FOs, PTs, Levels, PTSABP
+
+        glb00, B3               12,  3,  8          
+            N_16                                         2,  1,  1,  1, 1PT 
+            N_21                                         1,  1,  1,  1, 1PT 
+            N_55                                        10,  1,  6,  2, -   
+
+        glb01, B1                9,  4,  7          
+            AND_795                                      3,  1,  1,  1, 1PT 
+            N_47                                         3,  1,  2,  1, -   
+            N_49                                         4,  1,  2,  1, -   
+            N_59                                         9,  1,  4,  1, 4PT 
+
+        glb02, A2                5,  4,  4          
+            AND_824                                      2,  1,  1,  1, 1PT 
+            AND_825                                      2,  1,  1,  1, 1PT 
+            AND_827                                      2,  1,  1,  1, 1PT 
+            AND_828                                      2,  1,  1,  1, 1PT 
+
+        glb03, A6                4,  4,  4          
+            AND_821                                      2,  1,  1,  1, 1PT 
+            AND_822                                      2,  1,  1,  1, 1PT 
+            AND_823                                      2,  1,  1,  1, 1PT 
+            AND_826                                      2,  1,  1,  1, 1PT 
+
+        glb04, C2                5,  4, 13          
+            N_10                                         5,  1,  4,  1, 4PT 
+            N_14                                         5,  1,  4,  1, 4PT 
+            N_19                                         4,  1,  3,  1, -   
+            N_6                                          5,  1,  3,  1, 4PT 
+
+        glb05, C3                4,  2,  2          
+            N_2                                          3,  1,  1,  1, 1PT 
+            N_44                                         1,  2,  1,  1, 1PT 
+
+
+Maximum-Level Trace
+
+    GLB Level, Name, Ins    GLB Output Name
+
+        2, glb00, 12            N_55                
+        1, glb01                 AND_795             
+
+
+Pin Assignments
+
+    Pin Name                Pin Assignment          Pin Type, Pin Attribute
+
+        PLDCLK                  15                      Clock Input, PULLUP
+        A0                      27                      Input, PULLUP
+        A1                      28                      Input, PULLUP
+        SIZ0                    29                      Input, PULLUP
+        SIZ1                    30                      Input, PULLUP
+        INV_DS                  31                      Input, PULLUP
+        R_W                     32                      Input, PULLUP
+        INV_WRUU                34                      Output, PULLUP
+        INV_WRUM                35                      Output, PULLUP
+        INV_WRLM                36                      Output, PULLUP
+        INV_WRLL                37                      Output, PULLUP
+        INV_WRU                 38                      Output, PULLUP
+        INV_WRL                 39                      Output, PULLUP
+        INV_WR                  40                      Output, PULLUP
+        INV_RD                  41                      Output, PULLUP
+        INV_AS                  51                      Dedicated Input, PULLUP
+        INV_FC0                 52                      Input, PULLUP
+        INV_FC1                 53                      Input, PULLUP
+        INV_FC2                 54                      Input, PULLUP
+        WAIT1                   56                      Input, PULLUP
+        WAIT2                   57                      Input, PULLUP
+        INV_SEL_0               58                      Input, PULLUP
+        INV_SEL_C               59                      Input, PULLUP
+        INV_SEL_1               60                      Input, PULLUP
+        INV_SEL_4TO7            61                      Input, PULLUP
+        INV_SEL_8TOB            62                      Input, PULLUP
+        INV_SEL_F               63                      Input, PULLUP
+        INV_CPU                 66                      Output, PULLUP
+        INV_IACK_AVEC           67                      Output, PULLUP
+        INV_MPU_DSACK0          68                      Output, PULLUP
+        INV_MPU_DSACK1          69                      Output, PULLUP
+
+
+Design process management completed successfully

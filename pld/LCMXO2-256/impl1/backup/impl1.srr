@@ -1,0 +1,261 @@
+#Build: Synplify Pro (R) V-2023.09L-2, Build 349R, Sep 17 2024
+#install: C:\tools\diamond_3.14\synpbase
+#OS: Windows 10 or later
+#Hostname: 4400JPY
+
+# Thu Dec  5 01:46:15 2024
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":8:7:8:17|Top entity is set to ARBITER_TOP.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd'.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":8:7:8:17|Synthesizing work.arbiter_top.schematic.
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":334:10:334:16|Synthesizing work.fd1s3ax.syn_black_box.
+Post processing for work.fd1s3ax.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":270:10:270:15|Synthesizing work.fd1s1a.syn_black_box.
+Post processing for work.fd1s1a.syn_black_box
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":44:10:44:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":45:10:45:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":98:13:98:17|Signal n_108 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":110:14:110:17|Signal n_49 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":131:14:131:17|Signal n_29 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":132:14:132:17|Signal n_32 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":599:10:599:11|Synthesizing work.ib.syn_black_box.
+Post processing for work.ib.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":2380:10:2380:14|Synthesizing work.tsall.syn_black_box.
+Post processing for work.tsall.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1182:10:1182:11|Synthesizing work.ob.syn_black_box.
+Post processing for work.ob.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1098:10:1098:12|Synthesizing work.nd2.syn_black_box.
+Post processing for work.nd2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":64:10:64:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1149:10:1149:12|Synthesizing work.nr3.syn_black_box.
+Post processing for work.nr3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1159:10:1159:12|Synthesizing work.nr4.syn_black_box.
+Post processing for work.nr4.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1140:10:1140:12|Synthesizing work.nr2.syn_black_box.
+Post processing for work.nr2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":73:10:73:13|Synthesizing work.and3.syn_black_box.
+Post processing for work.and3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1276:10:1276:12|Synthesizing work.or2.syn_black_box.
+Post processing for work.or2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":681:10:681:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1107:10:1107:12|Synthesizing work.nd3.syn_black_box.
+Post processing for work.nd3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":591:10:591:12|Synthesizing work.gsr.syn_black_box.
+Post processing for work.gsr.syn_black_box
+Post processing for work.arbiter_top.schematic
+Running optimization stage 1 on ARBITER_TOP .......
+@W: CL240 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":132:14:132:17|Signal N_32 is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":131:14:131:17|Signal N_29 is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":98:13:98:17|Signal N_108 is floating; a simulation mismatch is possible.
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":375:3:375:6|Input a of instance I153 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":375:3:375:6|Input b of instance I153 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":355:3:355:6|Input b of instance I150 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":353:3:353:6|Input b of instance I152 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":351:3:351:6|Input a of instance I144 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":349:3:349:6|Input b of instance I148 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":347:3:347:6|Input a of instance I149 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":341:3:341:6|Input b of instance I147 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":339:3:339:6|Input a of instance I151 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":311:3:311:6|Input c of instance I160 is floating
+@W: CL167 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":307:3:307:6|Input b of instance I159 is floating
+Finished optimization stage 1 on ARBITER_TOP (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
+Running optimization stage 2 on ARBITER_TOP .......
+Finished optimization stage 2 on ARBITER_TOP (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 96MB peak: 97MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Thu Dec  5 01:46:20 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  5 01:46:20 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 30MB peak: 31MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Thu Dec  5 01:46:20 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec  5 01:46:22 2024
+
+###########################################################]
+Premap Report
+
+# Thu Dec  5 01:46:23 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 198MB)
+
+@W: BN246 |Failed to find top-level module 'arbiter_top' as specified in project file
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\impl1_scck.rpt 
+See clock summary report "C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 198MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 198MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 203MB peak: 203MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 203MB peak: 205MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 253MB peak: 255MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 253MB peak: 255MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 255MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 255MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=0 on top level netlist ARBITER_TOP 
+@E: MF515 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":377:3:377:6|Found illegal pad connections on pad I216 
+Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+# Thu Dec  5 01:46:29 2024
+
+###########################################################]

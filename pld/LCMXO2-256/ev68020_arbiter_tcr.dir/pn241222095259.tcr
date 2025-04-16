@@ -1,0 +1,23 @@
+#Start recording tcl command: 12/22/2024 09:29:08
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run PAR -impl impl1
+prj_run PAR -impl impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run PAR -impl impl1
+prj_run Export -impl impl1 -forceOne
+prj_run Map -impl impl1 -forceOne
+prj_run Map -impl impl1 -forceOne
+prj_run PAR -impl impl1 -forceOne
+prj_run PAR -impl impl1 -forceOne
+prj_run Export -impl impl1 -forceOne
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+pwc_command new
+pwc_thermal set -board Medium -heatsink NoHeatSink -airflow 0
+pwc_command save -project "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top_66.666MHz.pcf"
+pwc_command exit
+#Stop recording: 12/22/2024 09:52:59

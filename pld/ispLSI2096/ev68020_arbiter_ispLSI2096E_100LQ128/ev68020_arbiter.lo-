@@ -1,0 +1,28 @@
+ispEXPERT Compiler Release 2.1.00.02.49.20, May 20 2002 13:06:40
+
+Copyright (C) 1994-2000 by Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+
+Design Process Management 
+
+Renaming existing log file to ev68020_arbiter.lo-
+Renaming existing parameter file to ev68020_arbiter.pa-
+Renaming existing rpt file to ev68020_arbiter.rp-
+
+Preprocessing design 'ev68020_arbiter'...
+
+
+
+Lattice EDIF Netlist Reader  Version 2.1.00.02.49.20 Sat Nov 16 04:16:44 2024
+
+Copyright (c) 1993 - 2000 by Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+Writing laf netlist ...
+lafout: Warning: Net GND is not driving anything.
+lafout: Warning: Net VCC is not driving anything.
+
+Edif netlist reader completed successfully.
+
+

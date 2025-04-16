@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="18.1">
+	<Comment></Comment>
+	<Chain>
+		<Comm>ISP</Comm>
+		<Device>
+			<Pos>1</Pos>
+			<Ref>arbiter</Ref>
+			<Vendor>Lattice</Vendor>
+			<Family>ispLSI 2000</Family>
+			<Name>2096</Name>
+			<IDCode>0x00000013</IDCode>
+			<Package>128-pin PQFP</Package>
+			<PON>ispLSI2096-XXLQ128</PON>
+			<Bypass>
+				<InstrLen>5</InstrLen>
+				<InstrVal>11111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ver1\run2\ev68020_arbiter.jed</File>
+			<FileTime>11/10/24 21:06:20</FileTime>
+			<JedecChecksum>0x3423</JedecChecksum>
+			<Operation>Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<IOState>HighZ</IOState>
+				<OverideUES value="TRUE"/>
+				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>SVF Processor</SVFProcessor>
+				<Usercode>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</Usercode>
+			</Option>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<DeGlitch value="TRUE"/>
+		<VerifyUsercode value="TRUE"/>
+		<PinSetting>
+			TMS	LOW;
+			TCK	LOW;
+			TDI	LOW;
+			TDO	LOW;
+			CableEN	HIGH;
+			ISPEN	LOW;
+		</PinSetting>
+	</ProjectOptions>
+	<USBOptions>
+		<PortAdd>FTUSB-0</PortAdd>
+		<USBID>USB --- Serial Converter A Location 0000 Serial FT8ZMWFCA</USBID>
+	</USBOptions>
+</ispXCF>

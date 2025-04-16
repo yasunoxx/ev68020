@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT ev68020_arbiter
+DESIGN ev68020_arbiter Normal
+DEVKIT ispLSI2096A-100LQ128
+ENTRY Schematic/VHDL
+MODULE arbiter_top.sch
+MODSTYLE arbiter_top Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE arbiter_top

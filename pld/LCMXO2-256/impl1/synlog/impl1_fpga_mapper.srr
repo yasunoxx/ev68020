@@ -1,0 +1,373 @@
+# Sat Dec  7 16:49:07 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 182MB peak: 182MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 197MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 197MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 198MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 199MB peak: 201MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 257MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   998.78ns		   0 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 258MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 204MB peak: 258MB)
+
+Writing Analyst data base C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 259MB peak: 259MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 267MB peak: 267MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 267MB peak: 267MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 266MB peak: 267MB)
+
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":320:3:320:6|Blackbox ND2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":280:3:280:6|Blackbox NR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":274:3:274:6|Blackbox NR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":270:3:270:6|Blackbox NR2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":256:3:256:6|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":206:3:206:6|Blackbox ND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock ARBITER_TOP|PLDCLK with period 1000.00ns. Please declare a user-defined clock on port PLDCLK.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Dec  7 16:49:11 2024
+#
+
+
+Top view:               ARBITER_TOP
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 998.780
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                       Requested     Estimated      Requested     Estimated                 Clock        Clock          
+Starting Clock         Frequency     Frequency      Period        Period        Slack       Type         Group          
+------------------------------------------------------------------------------------------------------------------------
+ARBITER_TOP|PLDCLK     1.0 MHz       819.8 MHz      1000.000      1.220         998.780     inferred     (multiple)     
+System                 1.0 MHz       9469.7 MHz     1000.000      0.106         999.894     system       system_clkgroup
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------
+System              System              |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+System              ARBITER_TOP|PLDCLK  |  1000.000    999.894   |  No paths    -      |  No paths    -      |  No paths    -    
+ARBITER_TOP|PLDCLK  System              |  1000.000    998.780   |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: ARBITER_TOP|PLDCLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                            Arrival            
+Instance     Reference              Type       Pin     Net       Time        Slack  
+             Clock                                                                  
+------------------------------------------------------------------------------------
+I171         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_45      1.220       998.780
+I170         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_85      1.044       998.956
+I167         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_130     0.972       999.028
+I168         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_129     0.972       999.028
+I169         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_133     0.972       999.028
+I172         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_128     0.972       999.028
+I173         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_131     0.972       999.028
+I174         ARBITER_TOP|PLDCLK     FD1S1A     Q       N_132     0.972       999.028
+====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                         Required            
+Instance     Reference              Type     Pin     Net      Time         Slack  
+             Clock                                                                
+----------------------------------------------------------------------------------
+I175         ARBITER_TOP|PLDCLK     ND2      B       N_45     1000.000     998.780
+I176         ARBITER_TOP|PLDCLK     ND2      B       N_45     1000.000     998.780
+I177         ARBITER_TOP|PLDCLK     ND2      B       N_45     1000.000     998.780
+I178         ARBITER_TOP|PLDCLK     ND2      B       N_45     1000.000     998.780
+I179         ARBITER_TOP|PLDCLK     ND2      B       N_45     1000.000     998.780
+I180         ARBITER_TOP|PLDCLK     ND2      B       N_45     1000.000     998.780
+I181         ARBITER_TOP|PLDCLK     ND2      B       N_45     1000.000     998.780
+I182         ARBITER_TOP|PLDCLK     ND2      B       N_45     1000.000     998.780
+I181         ARBITER_TOP|PLDCLK     ND2      A       N_85     1000.000     998.956
+I182         ARBITER_TOP|PLDCLK     ND2      A       N_85     1000.000     998.956
+==================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      1.220
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     998.780
+
+    Number of logic level(s):                0
+    Starting point:                          I171 / Q
+    Ending point:                            I175 / B
+    The start point is clocked by            ARBITER_TOP|PLDCLK [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+I171               FD1S1A     Q        Out     1.220     1.220 r     -         
+N_45               Net        -        -       -         -           8         
+I175               ND2        B        In      0.000     1.220 r     -         
+===============================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                 Arrival            
+Instance     Reference     Type     Pin     Net       Time        Slack  
+             Clock                                                       
+-------------------------------------------------------------------------
+I161         System        NR2      Z       LMDS      0.000       999.894
+I162         System        NR2      Z       UMDS      0.000       999.894
+I163         System        NR2      Z       UUDS      0.000       999.894
+I164         System        NR2      Z       UDS       0.000       999.894
+I165         System        NR2      Z       LLDS      0.000       999.894
+I166         System        NR2      Z       LDS       0.000       999.894
+I201         System        ND3      Z       N_151     0.000       999.894
+I207         System        OR2      Z       N_164     0.000       999.894
+I208         System        OR2      Z       N_168     0.000       999.894
+I209         System        OR2      Z       N_166     0.000       999.894
+=========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                    Required            
+Instance     Reference     Type        Pin     Net       Time         Slack  
+             Clock                                                           
+-----------------------------------------------------------------------------
+I167         System        FD1S1A      D       LMDS      999.894      999.894
+I168         System        FD1S1A      D       UMDS      999.894      999.894
+I169         System        FD1S1A      D       UUDS      999.894      999.894
+I172         System        FD1S1A      D       LDS       999.894      999.894
+I173         System        FD1S1A      D       UDS       999.894      999.894
+I174         System        FD1S1A      D       LLDS      999.894      999.894
+I203         System        FD1S3AX     D       N_164     999.894      999.894
+I204         System        FD1S3AX     D       N_151     999.894      999.894
+I205         System        FD1S3AX     D       N_166     999.894      999.894
+I206         System        FD1S3AX     D       N_168     999.894      999.894
+=============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.894
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 999.894
+
+    Number of logic level(s):                0
+    Starting point:                          I161 / Z
+    Ending point:                            I167 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            ARBITER_TOP|PLDCLK [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+I161               NR2        Z        Out     0.000     0.000 r     -         
+LMDS               Net        -        -       -         -           1         
+I167               FD1S1A     D        In      0.000     0.000 r     -         
+===============================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 267MB peak: 267MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 267MB peak: 268MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_256hc-4
+
+Register bits: 4 of 256 (2%)
+Latch bits:      8
+PIC Latch:       0
+I/O cells:       30
+
+
+Details:
+AND2:           10
+and3:           5
+FD1S1A:         8
+FD1S3AX:        4
+GSR:            1
+IB:             18
+INV:            5
+nd2:            10
+nd3:            1
+nr2:            7
+nr3:            3
+nr4:            2
+OB:             12
+OR2:            3
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 129MB peak: 268MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Sat Dec  7 16:49:11 2024
+
+###########################################################]

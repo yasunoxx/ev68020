@@ -1,0 +1,206 @@
+ispEXPERT Compiler Release 2.1.00.02.49.20, May 20 2002 13:06:40
+
+
+Design Parameters
+-----------------
+
+EFFORT:                         LOW (1)
+IGNORE_FIXED_PIN:               OFF
+MAX_GLB_IN:                     2
+MAX_GLB_OUT:                    1
+OUTPUT_FORM:                    VERILOG, VHDL
+OS_VERSION:                     Windows NT 6.2
+PARAM_FILE:                     'c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1\ispxpert'
+PIN_FILE:                       'c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1\ev68020_arbiter.xpn'
+STRATEGY:                       DELAY
+TIMING_ANALYZER:                ON 
+USE_GLOBAL_RESET:               ON
+
+
+Design Specification
+--------------------
+
+Design:                         ev68020_arbiter
+Part:                           ispLSI2096A-100LQ128
+
+
+ISP:                            ON
+ISP_EXCEPT_Y2:                  OFF
+PULL:                           UP
+SECURITY:                       OFF
+SLOWSLEW:                       OFF
+
+
+Number of Critical Pins:        0
+Number of Free Pins:            0
+Number of Locked Pins:          31
+Number of Reserved Pins:        0
+
+
+Input Pins
+
+    Pin Name                Pin Attribute
+
+        A0                      LOCK 27, PULLUP
+        A1                      LOCK 28, PULLUP
+        INV_AS                  LOCK 51, PULLUP
+        INV_DS                  LOCK 31, PULLUP
+        INV_FC0                 LOCK 52, PULLUP
+        INV_FC1                 LOCK 53, PULLUP
+        INV_FC2                 LOCK 54, PULLUP
+        INV_SEL_0               LOCK 58, PULLUP
+        INV_SEL_1               LOCK 60, PULLUP
+        INV_SEL_4TO7            LOCK 61, PULLUP
+        INV_SEL_8TOB            LOCK 62, PULLUP
+        INV_SEL_C               LOCK 59, PULLUP
+        INV_SEL_F               LOCK 63, PULLUP
+        PLDCLK                  LOCK 15, PULLUP
+        R_W                     LOCK 32, PULLUP
+        SIZ0                    LOCK 29, PULLUP
+        SIZ1                    LOCK 30, PULLUP
+        WAIT1                   LOCK 56, PULLUP
+        WAIT2                   LOCK 57, PULLUP
+
+
+Output Pins
+
+    Pin Name                Pin Attribute
+
+        INV_CPU                 LOCK 66, PULLUP
+        INV_IACK_AVEC           LOCK 67, PULLUP
+        INV_MPU_DSACK0          LOCK 68, PULLUP
+        INV_MPU_DSACK1          LOCK 69, PULLUP
+        INV_RD                  LOCK 41, PULLUP
+        INV_WR                  LOCK 40, PULLUP
+        INV_WRL                 LOCK 39, PULLUP
+        INV_WRLL                LOCK 37, PULLUP
+        INV_WRLM                LOCK 36, PULLUP
+        INV_WRU                 LOCK 38, PULLUP
+        INV_WRUM                LOCK 35, PULLUP
+        INV_WRUU                LOCK 34, PULLUP
+
+
+
+Synthesis and partitioning statistics:
+
+Number of Macrocells is 61
+Number of GLBs is 61
+Number of product terms is 65
+Maximum number of GLB levels is 7
+Average number of inputs per GLB is 2.0
+Average number of outputs per GLB is 1.0
+Average number of product terms per GLB is 1.1
+
+
+Detail Description of Functions:
+
+I103_I_4.I103_Y = [733] & [1141];
+I104_U1.I104_Y = [1143] & [1144];
+I33_U1.I33_YN = [779] & [1148];
+I34_U1.I34_YN = [1148] & [1149];
+I35_U1.I35_YN = [1148] & [1151];
+I36_U1.I36_YN = [1148] & [1152];
+I37_U1.I37_YN = [1148] & [1158];
+I38_U1.I38_YN = [1148] & [1164];
+[719] = INV_FC0 & INV_FC1;
+[990] = INV_FC2 & [719];
+[722] = INV_FC2 & [719];
+[989] = [722] & [1133];
+[726] = [722] & [1133];
+[731] = INV_SEL_4TO7 & INV_SEL_8TOB;
+[733] = WAIT1 & [1142];
+[734] = [722] & [1133];
+[736] = [1139] & [1140];
+[987] = [1134] & [1145];
+[744] = INV_SEL_0 & INV_SEL_C;
+[746] = WAIT2 & [1138];
+[747] = [722] & [1133];
+[749] = [746] & [1137];
+[750] = [1139] & [1140];
+[752] = [750] & [1136];
+[988] = [1134] & [1135];
+[760] = A0 & [1161];
+[762] = A1 & [1151];
+[763] = [760] & [1157];
+[765] = SIZ0 & [1161];
+[767] = [1157] & [1161];
+[769] = SIZ1 & [765];
+[770] = [767] & [1150];
+[771] = [1159] & [1160];
+[772] = [1162] & [1163];
+[773] = [771] & [772];
+[779] = [1151] & [1161];
+[985] = SIZ1 & [1161];
+[983] = A0 & [1161];
+[783] = [1157] & [1161];
+[784] = [1166] & [1167];
+[786] = [784] & [1165];
+[986] = A1 & SIZ1;
+[984] = A0 & A1;
+[792] = A0 & SIZ0;
+[794] = [1150] & [1157];
+[795] = SIZ1 & [792];
+[797] = [1153] & [1154];
+[798] = [1155] & [1156];
+[800] = [797] & [798];
+[805] = SIZ0 & [1151];
+[807] = [805] & [1150];
+[991] = I66.N_44 & [1146];
+[992] = [1146] & [1147];
+[993] = I72.N_19 & [1147];
+[994] = I71.N_14 & [1147];
+[995] = I68.N_10 & [1147];
+[996] = I73.N_16 & [1147];
+[997] = I70.N_6 & [1147];
+[998] = I69.N_2 & [1147];
+INV_RD = ![991];
+INV_WR = ![992];
+INV_WRL = ![993];
+INV_WRLL = ![994];
+INV_WRLM = ![995];
+INV_WRU = ![996];
+INV_WRUM = ![997];
+INV_WRUU = ![998];
+[1133] = !INV_SEL_F;
+[1134] = !INV_AS;
+[1135] = ![752];
+[1136] = ![749];
+[1137] = ![747];
+[1138] = ![744];
+[1139] = !I103_I_4.I103_Y;
+[1140] = !I104_U1.I104_Y;
+[1141] = ![734];
+[1142] = ![731];
+[1143] = !INV_SEL_1;
+[1144] = ![726];
+[1145] = ![736];
+[1146] = !I67.N_21;
+[1147] = !I66.N_44;
+[1148] = !INV_DS;
+[1149] = ![807];
+[1150] = !SIZ1;
+[1151] = !A0;
+[1152] = ![800];
+[1153] = ![986];
+[1154] = ![984];
+[1155] = ![794];
+[1156] = ![795];
+[1157] = !SIZ0;
+[1158] = ![773];
+[1159] = ![762];
+[1160] = ![763];
+[1161] = !A1;
+[1162] = ![769];
+[1163] = ![770];
+[1164] = ![786];
+[1165] = ![783];
+[1166] = ![985];
+[1167] = ![983];
+[1168] = 1;
+[1172] = 1;
+[1176] = 1;
+[1180] = 1;
+Synthesis and partitioning completed unsuccessfully
+
+
+Design process management completed unsuccessfully

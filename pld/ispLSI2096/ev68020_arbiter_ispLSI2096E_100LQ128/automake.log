@@ -1,0 +1,343 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: Generate Board-level Stamp Model
+Start to record tcl script...
+Finished recording TCL script.
+
+Starting: 'C:\tools\ispLEVER_Classic2_1\ispcpld\bin\syndpm.exe -i ev68020_arbiter.emf -if edif -prop ev68020_arbiter.prp -p ispLSI2096A-100LQ128 -pre -gui'
+
+arg[0] = C:\tools\ispLEVER_Classic2_1\ispcomp\bin\dpm.exe
+arg[1] = -i
+arg[2] = "C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ev68020_arbiter.emf"
+arg[3] = -if
+arg[4] = edif
+arg[5] = -prop
+arg[6] = "ev68020_arbiter.prp"
+arg[7] = -p
+arg[8] = ispLSI2096A-100LQ128
+arg[9] = -pre
+arg[10] = -s
+arg[11] = a
+arg[12] = -e
+arg[13] = 2
+arg[14] = -z
+arg[15] = -m
+arg[16] = 16
+arg[17] = -n
+arg[18] = 3
+arg[19] = -c
+arg[20] = -ta
+arg[21] = on
+arg[22] = -y
+arg[23] = "C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ev68020_arbiter.xpn"
+arg[24] = -S
+arg[25] = -r
+arg[26] = "C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ispxpert.par"
+cmd line = C:\tools\ispLEVER_Classic2_1\ispcomp\bin\dpm.exe -i "C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ev68020_arbiter.emf" -if edif -prop "ev68020_arbiter.prp" -p ispLSI2096A-100LQ128 -pre -s a -e 2 -z -m 16 -n 3 -c -ta on -y "C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ev68020_arbiter.xpn" -S -r "C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ispxpert.par" 
+ispEXPERT Compiler Release 2.1.00.02.49.20, May 20 2002 13:06:40
+
+Copyright (C) 1994-2000 by Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+
+Design Process Management 
+
+Renaming existing log file to ev68020_arbiter.lo-
+Renaming existing parameter file to ev68020_arbiter.pa-
+Renaming existing rpt file to ev68020_arbiter.rp-
+
+Preprocessing design 'ev68020_arbiter'...
+
+
+
+Lattice EDIF Netlist Reader 
+Writing laf netlist ...
+lafout: Port GND is converted to an LAF global net
+lafout: Port VCC is converted to an LAF global net
+lafout: Warning: Net GND is not driving anything.
+lafout: Warning: Net VCC is not driving anything.
+
+Edif netlist reader completed successfully.
+
+
+
+Done: completed successfully.
+
+Starting: 'C:\tools\ispLEVER_Classic2_1\ispcomp\bin\impsrclever.exe -prj ev68020_arbiter -log ev68020_arbiter.irs -noPrp'
+
+Done: completed successfully.
+
+Starting: 'C:\tools\ispLEVER_Classic2_1\ispcpld\bin\syndpm.exe -i ev68020_arbiter.laf -if laf -p ispLSI2096A-100LQ128 -pd "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128" -gui -of vhdl -of verilog'
+
+arg[0] = C:\tools\ispLEVER_Classic2_1\ispcomp\bin\dpm.exe
+arg[1] = -i
+arg[2] = "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ev68020_arbiter.laf"
+arg[3] = -if
+arg[4] = laf
+arg[5] = -p
+arg[6] = ispLSI2096A-100LQ128
+arg[7] = -of
+arg[8] = vhdl
+arg[9] = -of
+arg[10] = verilog
+arg[11] = -s
+arg[12] = a
+arg[13] = -e
+arg[14] = 2
+arg[15] = -z
+arg[16] = -m
+arg[17] = 16
+arg[18] = -n
+arg[19] = 3
+arg[20] = -c
+arg[21] = -ta
+arg[22] = on
+arg[23] = -y
+arg[24] = "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ev68020_arbiter.xpn"
+arg[25] = -S
+arg[26] = -r
+arg[27] = "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ispxpert.par"
+cmd line = C:\tools\ispLEVER_Classic2_1\ispcomp\bin\dpm.exe -i "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ev68020_arbiter.laf" -if laf -p ispLSI2096A-100LQ128 -of vhdl -of verilog -s a -e 2 -z -m 16 -n 3 -c -ta on -y "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ev68020_arbiter.xpn" -S -r "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ispxpert.par" 
+ispEXPERT Compiler Release 2.1.00.02.49.20, May 20 2002 13:06:40
+
+Copyright (C) 1994-2000 by Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+
+Design Process Management 
+
+Renaming existing log file to ev68020_arbiter.lo-
+Renaming existing rpt file to ev68020_arbiter.rp-
+
+Preprocessing design 'ev68020_arbiter'...
+
+Processing design 'ev68020_arbiter'...
+
+
+Logical LAF Reading and Translation 
+  
+Reading file 'c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68-
+      020_arbiter_isplsi2096e_100lq128\ev68020_arbiter.laf'... 
+  
+Checking design rules... 
+Selected part is 'ispLSI2096A-100LQ128'; 'ispLSI2096E-100LQ128' is 
+      recommended for new designs 
+32504 WARNING: Attribute 'Y1_AS_RESET ON' is not valid for part 
+      'ispLSI2096A-100LQ128'; attribute 'Y1_AS_RESET ON' is ignored 
+32561 WARNING: Option 'OPENDRAIN OFF' is not valid for part 
+      'ispLSI2096A-100LQ128'; option 'OPENDRAIN OFF' is ignored 
+32513 WARNING: Net 'GND' is floating 
+32513 WARNING: Net 'VCC' is floating 
+  
+Writing output files... 
+  
+Logical LAF reading and translation completed successfully 
+
+
+Synthesis and Partitioning 
+  
+Reading design 'ev68020_arbiter'... 
+33645 WARNING: Signal 'VCC' does not fan out 
+33645 WARNING: Signal 'GND' does not fan out 
+  
+Optimizing logic... 
+  
+Trying to move PT reset signal to global reset pin... 
+      PT reset signal cannot be moved to global reset pin because there 
+      exists no PT reset signal 
+      In order to move PT reset signal to global reset pin, the 
+      following conditions need to be satisfied: 
+      1. There exists at least one pin which drives all register's reset
+      signals 
+      2. This pin is unlocked 
+      3. This pin does not drive any data signals 
+      4. This pin can be disjointly decomposed with other pins, if any, 
+      which drive reset signals 
+  
+Partitioning logic into 16-input, 16-input with DIs, functions to 
+      minimize area... 
+  
+Estimated number of functions for the present 1-level netlist is 31 
+  
+Maximum number of functions for part 'ispLSI2096A-100LQ128' is 96 
+  
+Collapsing the netlist by relaxing product term and input constraints to
+      find minimum level solution subject to the area increase limit of
+      3.10... 
+  
+Estimated number of levels with the above area increase constraint is 1 
+Partitioning logic into 16-input, 16-input with DIs, functions to 
+      minimize area... 
+  
+Extracting LXOR2 gates to minimize area... 
+  
+Packing functions into GLBs using 16 inputs and 3 outputs per GLB to 
+      minimize area... 
+  
+Synthesis and partitioning statistics: 
+  
+Number of Macrocells is 20 
+Number of GLBs is 7 
+Number of product terms is 38 
+Maximum number of GLB levels is 1 
+Average number of inputs per GLB is 5.3 
+Average number of outputs per GLB is 2.9 
+Average number of product terms per GLB is 5.4 
+  
+Synthesis and partitioning completed successfully 
+
+
+Physical LAF Reading and Translation
+
+Reading design 'ev68020_arbiter'...
+
+Writing output files...
+
+Physical LAF reading and translation completed successfully
+
+
+Placement and Routing
+
+Reading design 'ev68020_arbiter'...
+
+Routing
+
+
+Writing output files...
+
+Placement and routing completed successfully
+
+
+Technology Remapping 
+  
+Reading design 'ev68020_arbiter'... 
+  
+Remapping... 
+  
+Writing output files... 
+  
+Writing output lco files... 
+  
+Technology remapping completed successfully 
+
+
+Physical LAF Reading and Translation
+
+Reading design 'ev68020_arbiter'...
+
+Writing output files...
+
+Physical LAF reading and translation completed successfully
+
+
+Fusemap Generation
+
+Reading design 'ev68020_arbiter'...
+
+Writing output files...
+
+Fusemap generation completed successfully
+
+
+Simulation LAF Netlist Generation
+
+Reading design 'ev68020_arbiter'...
+
+Writing output files...
+
+
+Information: Global reset (XRESET) is generated to reset all registers
+
+
+
+Simulation LAF netlist generation completed successfully
+
+
+Timing Analyzer 
+Reading design ev68020_arbiter .... 
+
+Evaluating maximum operating frequency ...
+Evaluating setup and hold times...
+               
+Calculating Tpd Path delays .....
+
+43123 WARNING: There are no Tpd paths for this mode of analysis in this design
+43020 WARNING: Design has only one register level
+
+         
+Timing analyzer completed successfully 
+
+
+
+Lattice Verilog netlist writer
+writing verilog netlist ...
+
+writing SDF file ev68020_arbiter.sdf ...
+
+MSG: Please use SDF file ev68020_arbiter.vsf for tools that do not support conditional delays.
+
+writing SDF file ev68020_arbiter.vsf ...
+
+Verilog netlist writer completed successfully.
+
+
+
+Lattice VHDL netlist writer
+Copyright (c) 1993 - 2000 by Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+writing vhdl file ...
+
+Please use the file: ev68020_arbiter.vho for non-VITAL VHDL timing simulation with max delay.
+
+
+Please use the file: ev68020_arbiter.vhn for non-VITAL VHDL timing simulation with min delay.
+
+
+
+Please use the VHDL netlist ev68020_arbiter.vto,
+the SDF file ev68020_arbiter.sdf and Lattice Semiconductor VITAL library for
+timing simulation with a VITAL compliant simulator.
+
+
+writing SDF file ev68020_arbiter.sdf ...
+VHDL netlist writer completed successfully.
+
+
+Design process management completed successfully
+
+Done: completed successfully.
+
+Starting: 'C:\tools\ispLEVER_Classic2_1\ispcpld\bin\synta.exe -proj ev68020_arbiter -pd "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128" -dpm_only -gui'
+
+Timing Analyzer Software 
+Copyright (c) 1999 by Lattice Semiconductor Corporation 
+All Rights Reserved 
+
+Reading design ev68020_arbiter .... 
+
+Evaluating maximum operating frequency ...
+Evaluating setup and hold times...
+               
+Calculating Tpd Path delays .....
+
+Calculating Tco Path delays .....
+
+43123 WARNING: There are no Tpd paths for this mode of analysis in this design
+43020 WARNING: Design has only one register level
+
+Timing analyzer completed successfully 
+
+Done: completed successfully.
+
+Starting: 'C:\tools\ispLEVER_Classic2_1\ispcpld\bin\stamppar.exe -i ev68020_arbiter  -gui -log automake.err -target ispLSI'
+
+Lattice Stamp Model Generator
+Copyright (c) 2000-2001 by Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+
+stamppar completed successfully.
+
+Done: completed successfully.

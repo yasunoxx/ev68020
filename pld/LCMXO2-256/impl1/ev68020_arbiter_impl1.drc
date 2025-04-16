@@ -1,0 +1,20 @@
+WARNING - netcheck: Design is completely unrouted. 70 warnings not reported below.
+WARNING - blockcheck: Component SLICE_1 is not placed.
+WARNING - blockcheck: Component SLICE_2 is not placed.
+WARNING - blockcheck: Component SLICE_3 is not placed.
+WARNING - blockcheck: Component SLICE_4 is not placed.
+WARNING - blockcheck: Component SLICE_5 is not placed.
+WARNING - blockcheck: Component SLICE_6 is not placed.
+WARNING - blockcheck: Component SLICE_7 is not placed.
+WARNING - blockcheck: Component SLICE_8 is not placed.
+WARNING - blockcheck: Component SLICE_9 is not placed.
+WARNING - blockcheck: Component SLICE_10 is not placed.
+WARNING - blockcheck: Component SLICE_11 is not placed.
+WARNING - blockcheck: Component SLICE_12 is not placed.
+WARNING - blockcheck: Component SLICE_13 is not placed.
+WARNING - blockcheck: Component SLICE_14 is not placed.
+WARNING - blockcheck: Component SLICE_15 is not placed.
+WARNING - blockcheck: Component SLICE_16 is not placed.
+WARNING - blockcheck: Component SLICE_17 is not placed.
+WARNING - blockcheck: Component SLICE_18 is not placed.
+DRC detected 0 errors and 89 warnings.

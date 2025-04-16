@@ -1,0 +1,93 @@
+[DEVICE]
+Family = plsi2k;
+PartNumber = ispLSI2096A-100LQ128;
+PartType = ispLSI2096A;
+Package = 128PQFP;
+Speed = 100;
+Operating_condition = COM;
+Default_Device_Io_Types = LVCMOS50,-;
+
+[REVISION]
+RCS = ;
+Parent = lc2k.lci;
+Design = ev68020_arbiter;
+DATE = 11/16/2024;
+TIME = 04:16:50;
+Source_Format = ;
+Type = ;
+Pre_Fit_Time = ;
+
+[IGNORE ASSIGNMENTS]
+
+[CLEAR ASSIGNMENTS]
+
+[BACKANNOTATE ASSIGNMENTS]
+
+[GLOBAL CONSTRAINTS]
+Security = Off;
+PULLUP = Up;
+ISP = On;
+ISP_EXCEPT_Y2 = Off;
+SLEWRATE = Off;
+
+[FITTER REPORT FORMAT]
+
+[LOCATION ASSIGNMENTS]
+WAIT2 = pin, 57, -, -, -;
+WAIT1 = pin, 56, -, -, -;
+SIZ1 = pin, 30, -, -, -;
+SIZ0 = pin, 29, -, -, -;
+R_W = pin, 32, -, -, -;
+PLDCLK = pin, 15, -, -, -;
+INV_SEL_F = pin, 63, -, -, -;
+INV_SEL_C = pin, 62, -, -, -;
+INV_SEL_4TOB = pin, 61, -, -, -;
+INV_SEL_1 = pin, 60, -, -, -;
+INV_SEL_0 = pin, 58, -, -, -;
+INV_FC2 = pin, 54, -, -, -;
+INV_FC1 = pin, 53, -, -, -;
+INV_FC0 = pin, 52, -, -, -;
+INV_DS = pin, 31, -, -, -;
+INV_AS = pin, 55, -, -, -;
+A1 = pin, 28, -, -, -;
+A0 = pin, 27, -, -, -;
+INV_WRUU = pin, 34, -, -, -;
+INV_WRUM = pin, 35, -, -, -;
+INV_WRU = pin, 38, -, -, -;
+INV_WRLM = pin, 36, -, -, -;
+INV_WRLL = pin, 37, -, -, -;
+INV_WRL = pin, 39, -, -, -;
+INV_WR = pin, 40, -, -, -;
+INV_RD = pin, 41, -, -, -;
+INV_MPU_DSACK1 = pin, 69, -, -, -;
+INV_MPU_DSACK0 = pin, 68, -, -, -;
+INV_IACK_AVEC = pin, 67, -, -, -;
+INV_CPU = pin, 66, -, -, -;
+
+[PULLUP]
+Up = WAIT2, WAIT1, SIZ1, SIZ0, R_W, PLDCLK, INV_SEL_F, INV_SEL_C, INV_SEL_4TOB, INV_SEL_1, INV_SEL_0, INV_FC2, INV_FC1, INV_FC0, INV_DS, INV_AS, A1, A0, INV_WRUU, INV_WRUM, INV_WRU, INV_WRLM, INV_WRLL, INV_WRL, INV_WR, INV_RD, INV_MPU_DSACK1, INV_MPU_DSACK0, INV_IACK_AVEC, INV_CPU; 
+
+[SLEWRATE]
+FAST = INV_WRUU, INV_WRUM, INV_WRU, INV_WRLM, INV_WRLL, INV_WRL, INV_WR, INV_RD, INV_MPU_DSACK1, INV_MPU_DSACK0, INV_IACK_AVEC, INV_CPU; 
+
+[IO TYPES]
+
+[OSM Bypass]
+
+[CLK]
+CLK0 = PLDCLKX; 
+
+[PTSABYPASS]
+Bypass = N_10, N_14, N_6; 
+
+[Fitter Results]
+I/O_Pin_Util = 30;
+I/O_Pin = 29;
+Logic_PT_Util = 7;
+Logic_PT = 35;
+Logic_MC_Util = 20;
+Logic_MC = 20;
+Occupied_PT_Util = 5;
+Occupied_PT = 24;
+GLB_input_Util = 8;
+GLB_input = 37;

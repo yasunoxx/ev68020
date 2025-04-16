@@ -1,0 +1,3 @@
+C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ev68020_arbiter.lct : <W0104> : Location Assignment 'INV_SEL_4to7' : Can not find this signal name.
+C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ev68020_arbiter.lct : <W0104> : Location Assignment 'INV_SEL_8toB' : Can not find this signal name.
+Loading Lattice Constraint File 'C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128\ev68020_arbiter.lct' done!

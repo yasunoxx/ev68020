@@ -1,0 +1,44 @@
+1 2.1.00.02.49.20
+-i c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run3\ev68020_arbiter.laf -if laf -p ispLSI2096A-100LQ128 -of verilog -of vhdl -s a -e 2 -z -m 4 -n 2 -ta on -y c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run3\ev68020_arbiter.xpn -r c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run3\ispxpert.par 
+c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run3\ispxpert.par 1731240384 Sun Nov 10 21:06:24 2024
+ev68020_arbiter.ppn 1731240385 Sun Nov 10 21:06:25 2024
+ev68020_arbiter.fxp 1731240385 Sun Nov 10 21:06:25 2024
+c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run3\ev68020_arbiter.laf 1731240383 Sun Nov 10 21:06:23 2024
+>  c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run3\ev68020_arbiter.xpn
+// PART: 	ispLSI2096A-100LQ128
+// FORMAT: 	PINNAME		PINTYPE	LOCK	PULLUP	SLOWSLEW	OPENDRAIN	OUTDELAY	VOLTAGE	CRIT
+		A0			-		27	-1		-1		-1		-1		-1		-1
+		A1			-		28	-1		-1		-1		-1		-1		-1
+		SIZ0			-		29	-1		-1		-1		-1		-1		-1
+		SIZ1			-		30	-1		-1		-1		-1		-1		-1
+		INV_DS		-		31	-1		-1		-1		-1		-1		-1
+		R_W			-		32	-1		-1		-1		-1		-1		-1
+		INV_WRUU		-		34	-1		-1		-1		-1		-1		-1
+		INV_WRUM		-		35	-1		-1		-1		-1		-1		-1
+		INV_WRLM		-		36	-1		-1		-1		-1		-1		-1
+		INV_WRLL		-		37	-1		-1		-1		-1		-1		-1
+		INV_WRU		-		38	-1		-1		-1		-1		-1		-1
+		INV_WRL		-		39	-1		-1		-1		-1		-1		-1
+		INV_WR		-		40	-1		-1		-1		-1		-1		-1
+		INV_RD		-		41	-1		-1		-1		-1		-1		-1
+		INV_FC0		-		52	-1		-1		-1		-1		-1		-1
+		INV_FC1		-		53	-1		-1		-1		-1		-1		-1
+		INV_FC2		-		54	-1		-1		-1		-1		-1		-1
+		WAIT1			-		56	-1		-1		-1		-1		-1		-1
+		WAIT2			-		57	-1		-1		-1		-1		-1		-1
+		INV_SEL_0		-		58	-1		-1		-1		-1		-1		-1
+		INV_SEL_C		-		59	-1		-1		-1		-1		-1		-1
+		INV_SEL_1		-		60	-1		-1		-1		-1		-1		-1
+		INV_SEL_4to7	-		61	-1		-1		-1		-1		-1		-1
+		INV_SEL_8toB	-		62	-1		-1		-1		-1		-1		-1
+		INV_SEL_F		-		63	-1		-1		-1		-1		-1		-1
+		INV_AS		-		51	-1		-1		-1		-1		-1		-1
+		INV_CPU		-		66	-1		-1		-1		-1		-1		-1
+		INV_IACK_AVEC	-		67	-1		-1		-1		-1		-1		-1
+		INV_MPU_DSACK0	-		68	-1		-1		-1		-1		-1		-1
+		INV_MPU_DSACK1	-		69	-1		-1		-1		-1		-1		-1
+		PLDCLK		-		15	-1		-1		-1		-1		-1		-1
+
+// FORMAT: 	NETNAME		CLK		PRESERVE	ECP	GROUP		XOR	ELP	ETP
+
+// FORMAT: 	SYMNAME		PROTECT	REGTYPE

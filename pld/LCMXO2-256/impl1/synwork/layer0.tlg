@@ -1,0 +1,40 @@
+@N: CD630 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":8:7:8:17|Synthesizing work.arbiter_top.schematic.
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":334:10:334:16|Synthesizing work.fd1s3ax.syn_black_box.
+Post processing for work.fd1s3ax.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":270:10:270:15|Synthesizing work.fd1s1a.syn_black_box.
+Post processing for work.fd1s1a.syn_black_box
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":44:10:44:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":45:10:45:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":599:10:599:11|Synthesizing work.ib.syn_black_box.
+Post processing for work.ib.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1182:10:1182:11|Synthesizing work.ob.syn_black_box.
+Post processing for work.ob.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1098:10:1098:12|Synthesizing work.nd2.syn_black_box.
+Post processing for work.nd2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":64:10:64:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1149:10:1149:12|Synthesizing work.nr3.syn_black_box.
+Post processing for work.nr3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1159:10:1159:12|Synthesizing work.nr4.syn_black_box.
+Post processing for work.nr4.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1140:10:1140:12|Synthesizing work.nr2.syn_black_box.
+Post processing for work.nr2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":73:10:73:13|Synthesizing work.and3.syn_black_box.
+Post processing for work.and3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1276:10:1276:12|Synthesizing work.or2.syn_black_box.
+Post processing for work.or2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":681:10:681:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1107:10:1107:12|Synthesizing work.nd3.syn_black_box.
+Post processing for work.nd3.syn_black_box
+Post processing for work.arbiter_top.schematic
+Running optimization stage 1 on ARBITER_TOP .......
+Finished optimization stage 1 on ARBITER_TOP (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
+Running optimization stage 2 on ARBITER_TOP .......
+Finished optimization stage 2 on ARBITER_TOP (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\layer0.duruntime
+
+

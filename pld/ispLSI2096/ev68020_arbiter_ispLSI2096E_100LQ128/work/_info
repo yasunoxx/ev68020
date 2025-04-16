@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Yasuno/Documents/dev/ev68020/pld/ispLSI2096/ev68020_arbiter_ispLSI2096E_100LQ128
+Earbiter_top
+Z1 w1731098155
+Z2 DPx7 lat_vhd 10 components 0 22 0DjMB7@P3;bM1c9MPPdHZ0
+Z3 DPx8 generics 10 components 0 22 FSb^@OHTP=2UZb<i[BJl^3
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z7 8C:/Users/Yasuno/Documents/dev/ev68020/pld/ispLSI2096/ev68020_arbiter_ispLSI2096E_100LQ128/arbiter_top.vhd
+Z8 FC:/Users/Yasuno/Documents/dev/ev68020/pld/ispLSI2096/ev68020_arbiter_ispLSI2096E_100LQ128/arbiter_top.vhd
+l0
+L11 1
+VQWhH_^a?9A4go@9JPVdmP2
+!s100 V>kNQaZKdNJQamg^E7FH13
+Z9 OT;C;2020.3;71
+32
+Z10 !s110 1731098442
+!i10b 1
+!i113 1
+Z11 o-work work -O0
+Z12 tExplicit 1 CvgOpt 0
+Aschematic
+R2
+R3
+R4
+R5
+R6
+DEx4 work 11 arbiter_top 0 22 QWhH_^a?9A4go@9JPVdmP2
+!i122 0
+l143
+L45 288
+VK:bG`F]C@Qzz]3:62ofZ:2
+!s100 nZ<ORfVU<[0GOD3nCS]J03
+R9
+32
+R10
+!i10b 1
+!i113 1
+R11
+R12

@@ -1,0 +1,17 @@
+#Start recording tcl command: 1/10/2025 03:34:28
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+prj_run Export -impl impl1 -forceAll
+prj_run Export -impl impl1 -forceOne
+prj_project save
+file copy -force -- "C:/Users/Yasuno/Documents/dev/7seg4/pld-rom/rom_7seg4.vhd" "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/source"
+prj_src add "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/source/rom_7seg4.vhd"
+prj_src remove "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/source/rom_7seg4.vhd"
+prj_run Export -impl impl1 -forceAll
+prj_run Export -impl impl1 -forceOne
+prj_project save
+prj_run Export -impl impl1 -forceOne
+prj_run Export -impl impl1 -forceOne
+prj_project save
+prj_project archive -includeAll "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.zip"
+#Stop recording: 1/10/2025 03:59:18

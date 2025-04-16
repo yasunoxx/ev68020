@@ -1,0 +1,35 @@
+i I_PLDCLK
+m 0 0
+u 17 17
+p {t:I116.O}{t:I204.CK}
+e ckid0_0 {t:I204.CK} FD1S3AX
+c ckid0_0 {t:I116.O} IB Unsupported/too complex instance on clock path
+i PLDCLK
+m 0 0
+u 0 0
+i N_219
+m 0 0
+u 0 0
+i N_209
+m 0 0
+u 0 0
+i N_198
+m 0 0
+u 0 0
+i N_190
+m 0 0
+u 0 0
+i N_187
+m 0 0
+u 0 0
+i N_183
+m 0 0
+u 0 0
+i N_181
+m 0 0
+u 0 0
+i N_179
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

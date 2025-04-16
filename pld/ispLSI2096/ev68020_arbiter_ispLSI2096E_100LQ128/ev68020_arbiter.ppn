@@ -1,0 +1,50 @@
+// 
+// Software Version 8.2
+// Targeted Device : ispLSI2096A-100LQ128
+// Platform : Windows NT 6.2
+// Date : Sat Nov 16 04:16:49 2024
+// Elapsed Time : 00:00:00
+// 
+                     GND        SYS          1
+                  PLDCLK         IN         15
+                     VCC        SYS         16
+                     GND        SYS         17
+                   RESET        SYS         19
+                      A0         IN         27
+                      A1         IN         28
+                    SIZ0         IN         29
+                    SIZ1         IN         30
+                  INV_DS         IN         31
+                     R_W         IN         32
+                     GND        SYS         33
+                INV_WRUU        OUT         34
+                INV_WRUM        OUT         35
+                INV_WRLM        OUT         36
+                INV_WRLL        OUT         37
+                 INV_WRU        OUT         38
+                 INV_WRL        OUT         39
+                  INV_WR        OUT         40
+                  INV_RD        OUT         41
+                     VCC        SYS         48
+                     GND        SYS         49
+                 INV_FC0         IN         52
+                 INV_FC1         IN         53
+                 INV_FC2         IN         54
+                  INV_AS         IN         55
+                   WAIT1         IN         56
+                   WAIT2         IN         57
+               INV_SEL_0         IN         58
+               INV_SEL_1         IN         60
+            INV_SEL_4TOB         IN         61
+               INV_SEL_C         IN         62
+               INV_SEL_F         IN         63
+                     GND        SYS         65
+                 INV_CPU        OUT         66
+           INV_IACK_AVEC        OUT         67
+          INV_MPU_DSACK0        OUT         68
+          INV_MPU_DSACK1        OUT         69
+                     GND        SYS         81
+                     VCC        SYS         82
+                     GND        SYS         97
+                     GND        SYS        112
+                     VCC        SYS        113

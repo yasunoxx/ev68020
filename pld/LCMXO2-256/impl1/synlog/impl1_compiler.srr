@@ -1,0 +1,134 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":8:7:8:17|Top entity is set to ARBITER_TOP.
+File C:\tools\diamond_3.14\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd'.
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":8:7:8:17|Synthesizing work.arbiter_top.schematic.
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":334:10:334:16|Synthesizing work.fd1s3ax.syn_black_box.
+Post processing for work.fd1s3ax.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":270:10:270:15|Synthesizing work.fd1s1a.syn_black_box.
+Post processing for work.fd1s1a.syn_black_box
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":44:10:44:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd":45:10:45:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":599:10:599:11|Synthesizing work.ib.syn_black_box.
+Post processing for work.ib.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1182:10:1182:11|Synthesizing work.ob.syn_black_box.
+Post processing for work.ob.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1098:10:1098:12|Synthesizing work.nd2.syn_black_box.
+Post processing for work.nd2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":64:10:64:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1149:10:1149:12|Synthesizing work.nr3.syn_black_box.
+Post processing for work.nr3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1159:10:1159:12|Synthesizing work.nr4.syn_black_box.
+Post processing for work.nr4.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1140:10:1140:12|Synthesizing work.nr2.syn_black_box.
+Post processing for work.nr2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":73:10:73:13|Synthesizing work.and3.syn_black_box.
+Post processing for work.and3.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1276:10:1276:12|Synthesizing work.or2.syn_black_box.
+Post processing for work.or2.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":681:10:681:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+@N: CD630 :"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd":1107:10:1107:12|Synthesizing work.nd3.syn_black_box.
+Post processing for work.nd3.syn_black_box
+Post processing for work.arbiter_top.schematic
+Running optimization stage 1 on ARBITER_TOP .......
+Finished optimization stage 1 on ARBITER_TOP (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on ARBITER_TOP .......
+Finished optimization stage 2 on ARBITER_TOP (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec  7 16:49:58 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec  7 16:49:58 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Dec  7 16:49:58 2024
+
+###########################################################]

@@ -1,0 +1,26 @@
+Resource Usage Report
+Part: lcmxo2_256hc-4
+
+Register bits: 4 of 256 (2%)
+Latch bits:      13
+PIC Latch:       0
+I/O cells:       30
+
+Details:
+AND2:           8
+and3:           6
+FD1S1A:         13
+FD1S3AX:        4
+GSR:            1
+IB:             18
+INV:            5
+nd2:            10
+nd3:            1
+nr2:            7
+nr3:            3
+nr4:            2
+OB:             12
+OR2:            3
+PUR:            1
+VHI:            1
+VLO:            1

@@ -1,0 +1,156 @@
+
+[Device]
+Family = lc2k;
+PartNumber = ispLSI2096E-100LQ128;
+Package = 128PQFP;
+PartType = ispLSI2096E;
+Speed = 100;
+Operating_condition = COM;
+Status = Production;
+Voltage = 5.0;
+EN_PinGLB = Yes;
+EN_PinMacrocell = Yes;
+
+[Revision]
+Parent = lc2ke.lci;
+DATE = 11/06/2024;
+TIME = 00:43:15;
+Source_Format = Schematic_VHDL;
+Synthesis = Synplify;
+
+[Ignore Assignments]
+
+[Clear Assignments]
+
+[Backannotate Assignments]
+
+[Global Constraints]
+
+[Location Assignments]
+layer = OFF;
+A0 = Pin, 128, -, C, -;
+A1 = Pin, 127, -, C, -;
+INV_AS = Pin, 126, -, C, -;
+INV_DS = Pin, 125, -, C, -;
+INV_FC0 = Pin, 124, -, C, -;
+INV_FC1 = Pin, 123, -, C, -;
+INV_FC2 = Pin, 122, -, C, -;
+R_W = Pin, 121, -, C, -;
+SIZ0 = Pin, 120, -, C, -;
+SIZ1 = Pin, 119, -, A, -;
+INV_SEL_0 = Pin, 2, -, -, -;
+INV_SEL_1 = Pin, 3, -, -, -;
+INV_SEL_4to7 = Pin, 4, -, -, -;
+INV_SEL_8toB = Pin, 5, -, -, -;
+INV_SEL_C = Pin, 6, -, -, -;
+INV_SEL_F = Pin, 7, -, -, -;
+INV_RD = Pin, 21, -, B, -;
+INV_WR = Pin, 22, -, B, -;
+INV_WRL = Pin, 23, -, B, -;
+INV_WRLL = Pin, 24, -, B, -;
+INV_WRLM = Pin, 25, -, B, -;
+INV_WRU = Pin, 26, -, B, -;
+INV_WRUM = Pin, 27, -, B, -;
+INV_WRUU = Pin, 28, -, B, -;
+PLDCLK = Pin, 15, -, -, -;
+WAIT1 = Pin, 12, -, -, -;
+WAIT2 = Pin, 13, -, -, -;
+INV_CPU = Pin, 109, -, C, -;
+INV_IACK_AVEC = Pin, 108, -, B, -;
+INV_MPU_DSACK0 = Pin, 107, -, B, -;
+INV_MPU_DSACK1 = Pin, 106, -, B, -;
+
+[Group Assignments]
+layer = OFF;
+
+[Resource Reservations]
+layer = OFF;
+
+[Fitter Report Format]
+
+[Power]
+
+[Source Constraint Option]
+
+[Fast Bypass]
+
+[OSM Bypass]
+
+[Input Registers]
+
+[Netlist/Delay Format]
+
+[IO Types]
+layer = OFF;
+
+[Pullup]
+
+[Slewrate]
+
+[Region]
+
+[Timing Constraints]
+
+[HSI Attributes]
+
+[Input Delay]
+
+[opt global constraints list]
+
+[Explorer User Settings]
+
+[Pin attributes list]
+
+[global constraints list]
+
+[Global Constraints Process Update]
+
+[pin lock limitation]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[RESOURCE RESERVATIONS LIST]
+
+[individual constraints list]
+
+[Attributes list setting]
+
+[Timing Analyzer]
+
+[PLL Assignments]
+
+[Dual Function Macrocell]
+
+[Explorer Results]
+
+[VHDL synplify constraints]
+
+[VHDL spectrum constraints]
+
+[verilog synplify constraints]
+
+[verilog spectrum constraints]
+
+[VHDL synplify constraints list]
+
+[VHDL spectrum constraints list]
+
+[verilog synplify constraints list]
+
+[verilog spectrum constraints list]
+
+[symbol/module attribute]
+layer = OFF;
+
+[symbol/module attribute list]
+
+[Node attribute list]
+
+[Constraint Version]
+version = 1.0;
+
+[ORP ASSIGNMENTS]
+layer = OFF;
+
+[Node attribute]
+layer = OFF;

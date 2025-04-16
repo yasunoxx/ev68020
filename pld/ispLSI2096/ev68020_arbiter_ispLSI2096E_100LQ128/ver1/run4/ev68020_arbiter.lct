@@ -1,0 +1,135 @@
+
+[Device]
+Family = plsi2k;
+PartNumber = ispLSI2096A-100LQ128;
+Package = 128PQFP;
+PartType = ispLSI2096A;
+Speed = 100;
+Operating_condition = COM;
+Status = Obsolete;
+EN_PinGLB = Yes;
+EN_PinMacrocell = Yes;
+
+[Revision]
+Parent = lc2ka.lci;
+DATE = 11/09/2024;
+TIME = 05:05:25;
+Source_Format = Schematic_VHDL;
+Synthesis = Synplify;
+
+[Ignore Assignments]
+
+[Clear Assignments]
+
+[Backannotate Assignments]
+
+[Global Constraints]
+ispLSI_Strategy = Area;
+ispLSI_Max_GLB_Inputs = 18;
+ispLSI_Max_GLB_Outputs = 4;
+ispLSI_Carry_Pin_Direction = On;
+ispLSI_Min_GLB_Levels = High;
+Fitter_Effort_Level = High;
+
+[Location Assignments]
+layer = OFF;
+A0 = Pin, 27, -, B, -;
+A1 = Pin, 28, -, B, -;
+SIZ0 = Pin, 29, -, C, -;
+SIZ1 = Pin, 30, -, A, -;
+INV_DS = Pin, 31, -, A, -;
+R_W = Pin, 32, -, A, -;
+INV_WRUU = Pin, 34, -, A, -;
+INV_WRUM = Pin, 35, -, A, -;
+INV_WRLM = Pin, 36, -, A, -;
+INV_WRLL = Pin, 37, -, A, -;
+INV_WRU = Pin, 38, -, A, -;
+INV_WRL = Pin, 39, -, A, -;
+INV_WR = Pin, 40, -, C, -;
+INV_RD = Pin, 41, -, C, -;
+INV_FC0 = Pin, 52, -, A, -;
+INV_FC1 = Pin, 53, -, A, -;
+INV_FC2 = Pin, 54, -, A, -;
+WAIT1 = Pin, 56, -, A, -;
+WAIT2 = Pin, 57, -, A, -;
+INV_SEL_0 = Pin, 58, -, A, -;
+INV_SEL_C = Pin, 59, -, B, -;
+INV_SEL_1 = Pin, 60, -, A, -;
+INV_SEL_4to7 = Pin, 61, -, A, -;
+INV_SEL_8toB = Pin, 62, -, A, -;
+INV_SEL_F = Pin, 63, -, A, -;
+INV_AS = Pin, 51, -, -, -;
+INV_CPU = Pin, 66, -, A, -;
+INV_IACK_AVEC = Pin, 67, -, A, -;
+INV_MPU_DSACK0 = Pin, 68, -, A, -;
+INV_MPU_DSACK1 = Pin, 69, -, A, -;
+PLDCLK = Pin, 15, -, -, -;
+
+[Group Assignments]
+layer = OFF;
+
+[Resource Reservations]
+layer = OFF;
+
+[Fitter Report Format]
+
+[Power]
+
+[Source Constraint Option]
+
+[Fast Bypass]
+
+[OSM Bypass]
+
+[Input Registers]
+
+[Netlist/Delay Format]
+
+[IO Types]
+layer = OFF;
+
+[Pullup]
+
+[Slewrate]
+
+[Region]
+
+[Timing Constraints]
+
+[HSI Attributes]
+
+[Input Delay]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[symbol/module attribute]
+layer = OFF;
+
+[symbol/module attribute list]
+
+[Node attribute list]
+
+[RESOURCE RESERVATIONS LIST]
+
+[Pin attributes list]
+
+[Timing Analyzer]
+
+[PLL Assignments]
+
+[global constraints list]
+
+[Global Constraints Process Update]
+
+[Explorer Results]
+
+[Explorer User Settings]
+
+[Constraint Version]
+version = 1.0;
+
+[ORP ASSIGNMENTS]
+layer = OFF;
+
+[Node attribute]
+layer = OFF;

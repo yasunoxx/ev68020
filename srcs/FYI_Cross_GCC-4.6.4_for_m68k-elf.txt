@@ -1,0 +1,172 @@
+参考情報：m68k-elfクロスコンパイラ(binutils-2.25+gcc-4.6.4)作成
+(C)2025 yasunoxx▼Julia <yasunoxx gmail com>
+
+
+0. 最初に
+    必要に迫られて、m68k用のgcc-4.6.4をbuildしました。
+    (例えば、gcc-9.3.0だと「このhost/targetの組み合わせはデキマセン」、などと言われる。
+     そもそも、configureの"--enable-languages=c,lto"が通っていないっぽい)
+    他のarchにも応用できるかもしれません。
+    この文書の使用許諾条件は、gcc-4.6.4と同様にGNU GPL2です。
+    すべての結果について何ら保証いたしません。
+
+
+1. 用意するもの
+    1.1 binutils-2.25のソース
+        お近くのミラーサイトからget
+    1.2 gcc-4.6.4と必要な仲間たち
+        ・GMP, MPFR, MPCの三点セット
+            gccをbuildするために、ホスト環境に必要(なのでlatestで可)
+           事前に"configure && make && sudo make install"などとしておきましょう
+            ※お好みに応じて"make check"などしてみるのも一興
+        ・gcc-4.6.4のソース
+            お近くのミラーサイトからgetしましょう
+    1.3 古いnewlibのソース
+    	ワタクシはnewlib-2.5.1を選択いたしました
+    	(newlib-3.1.0ではCFLAGS='-std=c99'がセットできなかったので)
+    1.4 gcc-4.6.4のconfigureに適用するdiff
+        ワタクシ修正のdiff
+        この文書の末尾にあります
+        doc以下のbuildでコケるので、doc以下をbuildしないようにしました(←コレが書きたかった)
+        テキトーにお使いください
+
+    
+2. ホスト側での作成作業
+    2.1 事前作業
+        ・インストール先を決めましょう
+            自分専用のホストであれば/usr/local以下にm68k-elfを置く(というのが一番スッキリすると思うのですけれども、どうでしょう？)
+            共用のホストであれば~/bin以下などにm68k-elfを置く
+            以後、その場所を{INSTALL_PATH}と表します
+        ・{INSTALL_PATH}にPATHを通しておきましょう(下記の2.2を実行した後でも可です)
+    2.2 binutils-2.25のbuild
+        コレは素直に：
+            configure --prefix={INSTALL_PATH} --target=m68k-elf
+            make
+            sudo make install
+        でOKです
+        ※後述するオプションも一読してみてください
+    2.3 gcc-4.6.4のbuild
+        メインイベントです。./configureにpatchを当ててから：
+            configure --prefix={INSTALL_PATH} --target=m68k-elf \
+                --disable-libquadmath --disable-ssp
+            make
+            sudo make install
+        でOK(たぶん)
+        ※必要に応じて、--enable-languages=c,ltoなど添えるのもオツなモノ。
+        ※libquadmathとsspを使いたい人は、ガンバって。
+    2.4 newlib-cygwinのbuild
+        2.3までで作成したツールの試運転をしてみましょう
+	    (newlib-cygwinはgit cloneなさってね)
+        ※なお、間違いなく失敗すると思います(CPU時間のムダ遣いなので省略可)
+            cd newlib-cygwin
+            configure --prefix={INSTALL_PATH} --target=m68k-elf
+            make
+        しかし、"internal compiler error: in gen_rtx_SUBREG"などと怒られて止まるでしょう
+        ガンバって修正してみるのも一興ですけれども。。。
+    2.5 古いnewlibのbuild
+        newlib-2.5.1です。コレはもう、何のヒネりも無く：
+            TOOL=binutils CFLAGS='-std=c99' \
+            configure --prefix={INSTALL_PATH} --target=m68k-elf
+            make
+            make check
+            sudo make install
+        です
+        ※イマドキのgccでbuildする場合、CFLAGSを追加しないとコケるかも。
+        ※m68k-elfのみ？：setjmp()とlongjmp()が正しく参照できないようです。
+                          必要に応じて自製するか、newlibを修正しましょう。
+                          (必要とする人なら、動作を理解できるハズです)
+    2.6 オプション：binutilsの再build、あるいはbinutilsのアップデート
+        newlibが出来たので、--with-newlibを指定する辻褄が合います。そこで：
+            configure --prefix={INSTALL_PATH} --target=m68k-elf --with-newlib
+            make
+            sudo make install
+        とします。バージョンを上げるのもアリですわね。ワタクシはbinutils-2.43にしました。
+        ※ただし、binutils-2.43のbuildは、makeinfoやlibbfdがないとコケます。
+        　binutilsのopcodes/dis*などで使っているらしい、です
+        　お使いの環境に合わせてインストールして下さい(apt-getやdpkgなどがラクですわね)
+        ※さらに：binutils-2.43でgcc-4.6.4はbuildできないようです。
+
+
+3. 所感
+    buildできたものの、気分は良くありませんね。
+    TeXは嫌いですし、perlもPythonも嫌いです。ドキュメントの生成でコケるのは理不尽です。
+
+
+4, 蛇足
+    ※Warningが山ほど出てコケる場合、configureの前に与えるCFLAGSで"-std=c99"など定義すると
+    　buildが通る場合があります。gccのstdオプションについて調べてみてくださいませ。
+
+
+Appendix A. gcc-4.6.4/configureに適用するdiff
+
+601d600
+< MAKEINFO
+713d711
+< docdir
+871d868
+< docdir='${datarootdir}/doc/${PACKAGE}'
+951,955d947
+<   -docdir | --docdir | --docdi | --doc | --do)
+<     ac_prev=docdir ;;
+<   -docdir=* | --docdir=* | --docdi=* | --doc=* | --do=*)
+<     docdir=$ac_optarg ;;
+<
+1256c1248
+<               oldincludedir docdir infodir htmldir dvidir pdfdir psdir \
+---
+>               oldincludedir infodir htmldir dvidir pdfdir psdir \
+1427d1418
+<   --docdir=DIR            documentation root [DATAROOTDIR/doc/PACKAGE]
+8018,8021d8008
+<     if ${MAKEINFO} --version \
+<        | egrep 'texinfo[^0-9]*(4\.([7-9]|[1-9][0-9])|[5-9]|[1-9][0-9])' >/dev/null 2>&1; then
+<       :
+<     else
+8023d8009
+<     fi
+15335d15320
+< /@docdir@/p
+15341c15326
+< *@datadir@*|*@docdir@*|*@infodir@*|*@localedir@*|*@mandir@*)
+---
+> *@datadir@*|*@infodir@*|*@localedir@*|*@mandir@*)
+15348d15332
+<   s&@docdir@&$docdir&g
+
+
+Appendix B. gdb-7.3.1(動作未確認)
+    コチラも同様に：
+        CFLAGS='-w' configure --prefix=/usr/local/m68k-elf --target=m68k-elf
+    でbuildできます
+    ※'-w'指定でwarningを黙らせないとコケるかも(ワタクシの環境ではコケました)。
+    ※gcc同様、make install時にdocでコケる場合には、gdb/Makefileの修正が必要になります。
+    ("SUBDIR ="という行のdocを削除する、など)
+    ※m68k-stub.cは、おそらくそのままでは使えません。
+    むしろ、他のarch用を修正して使う方が早いかもしれませんね。なにしろ古いので。
+
+Appendix C. gcc-9.3.0の場合
+    MC680x0用：
+        デキマセン
+
+    H8/300用(h8300-hms-elf), SH3用(sh3-hms-elf)：
+        CFLAGS="--std=gnu99" configure --prefix=/usr/local --target=h8300-hms-elf \
+            --disable-libquadmath --disable-ssp --disable-libssp --enable-languages=c,lto
+
+    ARM用：
+	binutils-2.43の--targetはarm-eabi-elfです。
+        gcc-9.3.0の--targetはarm-none-eabi-elfです。ゆえに、
+        ../configure --prefix=/usr/local --target=arm-none-eabi-elf \
+            --with-build-time-tools=/usr/local/arm-eabi-elf/bin (以下同文)
+        のようになります。
+        ※--exec-prefix=arm-eabi-elfを指定しても、
+          "configure: error: expected an absolute directory name for --exec_prefix: arm-eabi-elf"
+          と拒否されます。メンドクセエですわね。
+        ※なお、newlibはbuildできません。おとなしくti-cgt-gcc-armなどを使いましょう。
+
+Appendix D. gcc-13.2.0の場合
+    MC680x0用：
+        ../configure --prefix=/usr/local --target=m68k-elf --with-languages="c,c++,lto" --without-fortran \
+            --disable-libquadmath --disable-ssp --disable-libssp --disable-shared --disable-shl
+        ※with-languagesやwithoutが効かず、gfortranも生成されます。
+        ※make installは、libstdc++-v3がエラーとなります。他のgcclibも未検証です。
+        ※ちなみに、newlib-4.5のbuildは通ります。

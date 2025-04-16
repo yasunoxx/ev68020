@@ -1,0 +1,26 @@
+# Reading pref.tcl
+vlib work
+vcom -reportprogress 300 -work work C:/Users/Yasuno/Documents/dev/ev68020/pld/ispLSI2096/ev68020_arbiter_ispLSI2096E_100LQ128/arbiter_top.vhd
+# Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+# Start time: 05:40:42 on Nov 09,2024
+# vcom -reportprogress 300 -work work C:/Users/Yasuno/Documents/dev/ev68020/pld/ispLSI2096/ev68020_arbiter_ispLSI2096E_100LQ128/arbiter_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package COMPONENTS
+# -- Loading package components
+# -- Compiling entity ARBITER_TOP
+# -- Compiling architecture SCHEMATIC of ARBITER_TOP
+# End time: 05:40:42 on Nov 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.arbiter_top
+# vsim -gui work.arbiter_top 
+# Start time: 05:41:01 on Nov 09,2024
+# ** License Issue: License request for latticemsim feature failed
+# ** License Issue: Cannot find license file. (C:\tools\ispLEVER_Classic2_1\license\license.dat)
+# ** License Issue: Cannot find license file. (C:\flexlm\license.dat)
+# ** Error: Failure to obtain a VHDL simulation license. Unable to checkout 'latticemsim' license feature.
+# Error loading design
+# End time: 05:41:02 on Nov 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

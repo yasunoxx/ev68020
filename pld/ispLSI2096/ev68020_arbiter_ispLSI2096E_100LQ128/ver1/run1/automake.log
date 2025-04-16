@@ -1,0 +1,113 @@
+Start: C:\tools\ispLEVER_Classic2_1\ispcpld\bin\syndpm -i ev68020_arbiter.laf -if laf -p ispLSI2096A-100LQ128 -pd "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1"  -of verilog -of vhdl
+
+Project dir : C:\Users\Yasuno\Documents\dev\ev68020\pld\ispLSI2096\ev68020_arbiter_ispLSI2096E_100LQ128, project name : ev68020_arbiter
+cmd line for CImpLegacy : -xpn ev68020_arbiter.xpn -xct ev68020_arbiter.xct -rsp ev68020_arbiter.rsp -par ev68020_arbiter.par -prj ev68020_arbiter -ues ev68020_arbiter.ues
+Warning: can not open parent constraint file C:\tools\ispLEVER_Classic2_1\ispcpld\config/-
+arg[0] = C:\tools\ispLEVER_Classic2_1\ispcomp\bin\dpm.exe
+arg[1] = -i
+arg[2] = "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1\ev68020_arbiter.laf"
+arg[3] = -if
+arg[4] = laf
+arg[5] = -p
+arg[6] = ispLSI2096A-100LQ128
+arg[7] = -of
+arg[8] = verilog
+arg[9] = -of
+arg[10] = vhdl
+arg[11] = -s
+arg[12] = d
+arg[13] = -e
+arg[14] = 1
+arg[15] = -z
+arg[16] = -m
+arg[17] = 2
+arg[18] = -n
+arg[19] = 1
+arg[20] = -ta
+arg[21] = on
+arg[22] = -y
+arg[23] = "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1\ev68020_arbiter.xpn"
+arg[24] = -r
+arg[25] = "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1\ispxpert.par"
+cmd line = C:\tools\ispLEVER_Classic2_1\ispcomp\bin\dpm.exe -i "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1\ev68020_arbiter.laf" -if laf -p ispLSI2096A-100LQ128 -of verilog -of vhdl -s d -e 1 -z -m 2 -n 1 -ta on -y "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1\ev68020_arbiter.xpn" -r "c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68020_arbiter_isplsi2096e_100lq128\ver1\run1\ispxpert.par" 
+ispEXPERT Compiler Release 2.1.00.02.49.20, May 20 2002 13:06:40
+
+Copyright (C) 1994-2000 by Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+
+Design Process Management 
+
+
+Preprocessing design 'ev68020_arbiter'...
+
+Processing design 'ev68020_arbiter'...
+
+
+Logical LAF Reading and Translation 
+  
+Reading file 'c:\users\yasuno\documents\dev\ev68020\pld\isplsi2096\ev68-
+      020_arbiter_isplsi2096e_100lq128\ver1\run1\ev68020_arbiter.laf'...
+  
+Checking design rules... 
+Selected part is 'ispLSI2096A-100LQ128'; 'ispLSI2096E-100LQ128' is 
+      recommended for new designs 
+32504 WARNING: Attribute 'Y1_AS_RESET ON' is not valid for part 
+      'ispLSI2096A-100LQ128'; attribute 'Y1_AS_RESET ON' is ignored 
+32561 WARNING: Option 'OPENDRAIN OFF' is not valid for part 
+      'ispLSI2096A-100LQ128'; option 'OPENDRAIN OFF' is ignored 
+32513 WARNING: Net 'GND' is floating 
+32513 WARNING: Net 'VCC' is floating 
+  
+Writing output files... 
+  
+Logical LAF reading and translation completed successfully 
+
+
+Synthesis and Partitioning 
+  
+Reading design 'ev68020_arbiter'... 
+33645 WARNING: Signal 'VCC' does not fan out 
+33645 WARNING: Signal 'GND' does not fan out 
+  
+Propagating constants... 
+  
+Trying to move PT reset signal to global reset pin... 
+      PT reset signal cannot be moved to global reset pin because there 
+      exists no PT reset signal 
+      In order to move PT reset signal to global reset pin, the 
+      following conditions need to be satisfied: 
+      1. There exists at least one pin which drives all register's reset
+      signals 
+      2. This pin is unlocked 
+      3. This pin does not drive any data signals 
+      4. This pin can be disjointly decomposed with other pins, if any, 
+      which drive reset signals 
+  
+Partitioning logic into 2-input, 2-input with DIs, functions to minimize
+      delay... 
+  
+Extracting LXOR2 gates to minimize delay... 
+  
+Packing functions into GLBs using 2 inputs and 1 outputs per GLB to 
+      minimize delay... 
+34200 ERROR: Number of GLBs, 61, exceeds maximum number             of 
+      available GLBs, 24, in part 'ispLSI2096A-100LQ128' 
+  
+Synthesis and partitioning statistics: 
+  
+Number of Macrocells is 61 
+Number of GLBs is 61 
+Number of product terms is 65 
+Maximum number of GLB levels is 7 
+Average number of inputs per GLB is 2.0 
+Average number of outputs per GLB is 1.0 
+Average number of product terms per GLB is 1.1 
+  
+Synthesis and partitioning completed unsuccessfully 
+
+
+Design process management completed unsuccessfully
+
+Done: failed with exit code: 1
+

@@ -1,0 +1,2 @@
+@W: BN246 |Failed to find top-level module 'arbiter_top' as specified in project file
+@W: MT529 :"c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd":218:3:218:6|Found inferred clock ARBITER_TOP|PLDCLK which controls 12 sequential elements including I204. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

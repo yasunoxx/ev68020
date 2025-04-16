@@ -1,0 +1,451 @@
+<html><body><samp><pre>
+<!@TC:1736765288>
+
+Loading design for application trce from file ev68020_arbiter_impl1.ncd.
+Design name: ARBITER_TOP
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-256HC
+Package:     TQFP100
+Performance: 4
+Loading device for application trce from file 'xo2c256.nph' in environment: C:/tools/diamond_3.14/ispfpga.
+Package Status:                     Final          Version 1.41.
+Performance Hardware Data Status:   Final          Version 36.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.14.0.75.2
+Fri Jan 10 03:57:27 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o ev68020_arbiter_impl1.twr -gui -msgset C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/promote.xml ev68020_arbiter_impl1.ncd ev68020_arbiter_impl1.prf 
+Design file:     ev68020_arbiter_impl1.ncd
+Preference file: ev68020_arbiter_impl1.prf
+Device,speed:    LCMXO2-256HC,4
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+Voltage:    3.350 V
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "PLDCLK" 64.000000 MHz ;
+            5 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 8.965ns
+         The internal maximum frequency of the following component is 150.150 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    PIO        PAD            PLDCLK
+
+   Delay:               6.660ns -- based on Minimum Pulse Width
+
+
+Passed: The following path meets requirements by 14.512ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I242  (from I_PLDCLK +)
+   Destination:    FF         Data in        I172  (to I_PLDCLK +)
+
+   Delay:               0.947ns  (100.0% logic, 0.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.947ns physical path delay SLICE_1 to SLICE_1 meets
+     15.625ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 15.459ns) by 14.512ns
+
+ Physical Path Details:
+
+      Data path SLICE_1 to SLICE_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    SLICE_1.CLK to     SLICE_1.Q1 SLICE_1 (from I_PLDCLK)
+ROUTE         1   e 0.000     SLICE_1.Q1 to     SLICE_1.A0 N_185
+CTOF_DEL    ---     0.495     SLICE_1.A0 to     SLICE_1.F0 SLICE_1
+ROUTE         1   e 0.000     SLICE_1.F0 to    SLICE_1.DI0 LDS (to I_PLDCLK)
+                  --------
+                    0.947   (100.0% logic, 0.0% route), 2 logic levels.
+
+
+Passed: The following path meets requirements by 14.512ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I243  (from I_PLDCLK +)
+   Destination:    FF         Data in        I174  (to I_PLDCLK +)
+
+   Delay:               0.947ns  (100.0% logic, 0.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.947ns physical path delay SLICE_3 to SLICE_2 meets
+     15.625ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 15.459ns) by 14.512ns
+
+ Physical Path Details:
+
+      Data path SLICE_3 to SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    SLICE_3.CLK to     SLICE_3.Q0 SLICE_3 (from I_PLDCLK)
+ROUTE         1   e 0.000     SLICE_3.Q0 to     SLICE_2.A1 N_193
+CTOF_DEL    ---     0.495     SLICE_2.A1 to     SLICE_2.F1 SLICE_2
+ROUTE         1   e 0.000     SLICE_2.F1 to    SLICE_2.DI1 LLDS (to I_PLDCLK)
+                  --------
+                    0.947   (100.0% logic, 0.0% route), 2 logic levels.
+
+
+Passed: The following path meets requirements by 14.512ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I244  (from I_PLDCLK +)
+   Destination:    FF         Data in        I167  (to I_PLDCLK +)
+
+   Delay:               0.947ns  (100.0% logic, 0.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.947ns physical path delay SLICE_4 to SLICE_3 meets
+     15.625ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 15.459ns) by 14.512ns
+
+ Physical Path Details:
+
+      Data path SLICE_4 to SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    SLICE_4.CLK to     SLICE_4.Q0 SLICE_4 (from I_PLDCLK)
+ROUTE         1   e 0.000     SLICE_4.Q0 to     SLICE_3.A1 N_202
+CTOF_DEL    ---     0.495     SLICE_3.A1 to     SLICE_3.F1 SLICE_3
+ROUTE         1   e 0.000     SLICE_3.F1 to    SLICE_3.DI1 LMDS (to I_PLDCLK)
+                  --------
+                    0.947   (100.0% logic, 0.0% route), 2 logic levels.
+
+
+Passed: The following path meets requirements by 14.512ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I241  (from I_PLDCLK +)
+   Destination:    FF         Data in        I168  (to I_PLDCLK +)
+
+   Delay:               0.947ns  (100.0% logic, 0.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.947ns physical path delay SLICE_5 to SLICE_4 meets
+     15.625ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 15.459ns) by 14.512ns
+
+ Physical Path Details:
+
+      Data path SLICE_5 to SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    SLICE_5.CLK to     SLICE_5.Q0 SLICE_5 (from I_PLDCLK)
+ROUTE         1   e 0.000     SLICE_5.Q0 to     SLICE_4.A1 N_213
+CTOF_DEL    ---     0.495     SLICE_4.A1 to     SLICE_4.F1 SLICE_4
+ROUTE         1   e 0.000     SLICE_4.F1 to    SLICE_4.DI1 UMDS (to I_PLDCLK)
+                  --------
+                    0.947   (100.0% logic, 0.0% route), 2 logic levels.
+
+
+Passed: The following path meets requirements by 14.512ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I240  (from I_PLDCLK +)
+   Destination:    FF         Data in        I169  (to I_PLDCLK +)
+
+   Delay:               0.947ns  (100.0% logic, 0.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.947ns physical path delay SLICE_6 to SLICE_6 meets
+     15.625ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 15.459ns) by 14.512ns
+
+ Physical Path Details:
+
+      Data path SLICE_6 to SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    SLICE_6.CLK to     SLICE_6.Q1 SLICE_6 (from I_PLDCLK)
+ROUTE         1   e 0.000     SLICE_6.Q1 to     SLICE_6.A0 N_223
+CTOF_DEL    ---     0.495     SLICE_6.A0 to     SLICE_6.F0 SLICE_6
+ROUTE         1   e 0.000     SLICE_6.F0 to    SLICE_6.DI0 UUDS (to I_PLDCLK)
+                  --------
+                    0.947   (100.0% logic, 0.0% route), 2 logic levels.
+
+Report:  150.150MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "PLDCLK" 64.000000 MHz ; |   64.000 MHz|  150.150 MHz|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: I_PLDCLK   Source: PLDCLK.PAD   Loads: 11
+   Covered under: FREQUENCY PORT "PLDCLK" 64.000000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5 paths, 1 nets, and 16 connections (12.21% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.14.0.75.2
+Fri Jan 10 03:57:27 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o ev68020_arbiter_impl1.twr -gui -msgset C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/promote.xml ev68020_arbiter_impl1.ncd ev68020_arbiter_impl1.prf 
+Design file:     ev68020_arbiter_impl1.ncd
+Preference file: ev68020_arbiter_impl1.prf
+Device,speed:    LCMXO2-256HC,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+Voltage:    3.350 V
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "PLDCLK" 64.000000 MHz ;
+            5 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I242  (from I_PLDCLK +)
+   Destination:    FF         Data in        I172  (to I_PLDCLK +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay SLICE_1 to SLICE_1 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path SLICE_1 to SLICE_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    SLICE_1.CLK to     SLICE_1.Q1 SLICE_1 (from I_PLDCLK)
+ROUTE         1   e 0.199     SLICE_1.Q1 to     SLICE_1.A0 N_185
+CTOF_DEL    ---     0.101     SLICE_1.A0 to     SLICE_1.F0 SLICE_1
+ROUTE         1   e 0.001     SLICE_1.F0 to    SLICE_1.DI0 LDS (to I_PLDCLK)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I240  (from I_PLDCLK +)
+   Destination:    FF         Data in        I169  (to I_PLDCLK +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay SLICE_6 to SLICE_6 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path SLICE_6 to SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    SLICE_6.CLK to     SLICE_6.Q1 SLICE_6 (from I_PLDCLK)
+ROUTE         1   e 0.199     SLICE_6.Q1 to     SLICE_6.A0 N_223
+CTOF_DEL    ---     0.101     SLICE_6.A0 to     SLICE_6.F0 SLICE_6
+ROUTE         1   e 0.001     SLICE_6.F0 to    SLICE_6.DI0 UUDS (to I_PLDCLK)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+
+Passed: The following path meets requirements by 0.763ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I243  (from I_PLDCLK +)
+   Destination:    FF         Data in        I174  (to I_PLDCLK +)
+
+   Delay:               0.750ns  (31.2% logic, 68.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.750ns physical path delay SLICE_3 to SLICE_2 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.763ns
+
+ Physical Path Details:
+
+      Data path SLICE_3 to SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    SLICE_3.CLK to     SLICE_3.Q0 SLICE_3 (from I_PLDCLK)
+ROUTE         1   e 0.515     SLICE_3.Q0 to     SLICE_2.A1 N_193
+CTOF_DEL    ---     0.101     SLICE_2.A1 to     SLICE_2.F1 SLICE_2
+ROUTE         1   e 0.001     SLICE_2.F1 to    SLICE_2.DI1 LLDS (to I_PLDCLK)
+                  --------
+                    0.750   (31.2% logic, 68.8% route), 2 logic levels.
+
+
+Passed: The following path meets requirements by 0.763ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I244  (from I_PLDCLK +)
+   Destination:    FF         Data in        I167  (to I_PLDCLK +)
+
+   Delay:               0.750ns  (31.2% logic, 68.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.750ns physical path delay SLICE_4 to SLICE_3 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.763ns
+
+ Physical Path Details:
+
+      Data path SLICE_4 to SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    SLICE_4.CLK to     SLICE_4.Q0 SLICE_4 (from I_PLDCLK)
+ROUTE         1   e 0.515     SLICE_4.Q0 to     SLICE_3.A1 N_202
+CTOF_DEL    ---     0.101     SLICE_3.A1 to     SLICE_3.F1 SLICE_3
+ROUTE         1   e 0.001     SLICE_3.F1 to    SLICE_3.DI1 LMDS (to I_PLDCLK)
+                  --------
+                    0.750   (31.2% logic, 68.8% route), 2 logic levels.
+
+
+Passed: The following path meets requirements by 0.763ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              I241  (from I_PLDCLK +)
+   Destination:    FF         Data in        I168  (to I_PLDCLK +)
+
+   Delay:               0.750ns  (31.2% logic, 68.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.750ns physical path delay SLICE_5 to SLICE_4 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.763ns
+
+ Physical Path Details:
+
+      Data path SLICE_5 to SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    SLICE_5.CLK to     SLICE_5.Q0 SLICE_5 (from I_PLDCLK)
+ROUTE         1   e 0.515     SLICE_5.Q0 to     SLICE_4.A1 N_213
+CTOF_DEL    ---     0.101     SLICE_4.A1 to     SLICE_4.F1 SLICE_4
+ROUTE         1   e 0.001     SLICE_4.F1 to    SLICE_4.DI1 UMDS (to I_PLDCLK)
+                  --------
+                    0.750   (31.2% logic, 68.8% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "PLDCLK" 64.000000 MHz ; |            -|            -|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: I_PLDCLK   Source: PLDCLK.PAD   Loads: 11
+   Covered under: FREQUENCY PORT "PLDCLK" 64.000000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5 paths, 1 nets, and 16 connections (12.21% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+</pre></samp></body></html>

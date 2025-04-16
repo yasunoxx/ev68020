@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "ev68020_arbiter_impl1.log"
+-o "ev68020_arbiter_impl1.csv"
+-pr "ev68020_arbiter_impl1.prf"

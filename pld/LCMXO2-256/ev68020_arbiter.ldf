@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="ev68020_arbiter" device="LCMXO2-256HC-4TG100C" default_implementation="impl1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="I/O Assistant">
+        <Options>
+            <Option name="HDL type" value="VHDL"/>
+            <Option name="def_top" value="ARBITER_TOP"/>
+            <Option name="top" value="arbiter_top"/>
+        </Options>
+        <Source name="impl1/source/arbiter_top.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="arbiter_top"/>
+        </Source>
+        <Source name="impl1/ev68020_arbiter_impl1.edi" type="EDIF" type_short="EDIF">
+            <Options/>
+        </Source>
+        <Source name="arbiter_top/arbiter_top.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="arbiter_top_64MHz.pcf" type="Power Calculator" type_short="PCF" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="arbiter_top_64MHz_worst.pcf" type="Power Calculator" type_short="PCF" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="arbiter_top_66.666MHz.pcf" type="Power Calculator" type_short="PCF" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="impl1/AutoConstraint_ARBITER_TOP.sdc" type="Synplify Design Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+        <Source name="impl1/ev68020_arbiter_impl1_synplify.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="ev68020_arbiter1.sty"/>
+</BaliProject>

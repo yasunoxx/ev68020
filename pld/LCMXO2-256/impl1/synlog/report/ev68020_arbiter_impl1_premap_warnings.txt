@@ -1,0 +1,3 @@
+@W: BN246 |Failed to find top-level module 'arbiter_top' as specified in project file
+@W: MT453 :"c:/users/yasuno/documents/dev/ev68020/pld/lcmxo2-256/impl1/autoconstraint_arbiter_top.sdc":3:0:3:0|clock period is too long for clock ARBITER_TOP|PLDCLK, changing period from 10000000.0 to 19531.2 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 9765.6 ns. 
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\ev68020_arbiter_impl1_cck.rpt" .

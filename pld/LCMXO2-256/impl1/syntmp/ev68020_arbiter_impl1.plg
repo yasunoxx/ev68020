@@ -1,0 +1,13 @@
+@P:  Worst Slack : 10.000
+@P:  ARBITER_TOP|PLDCLK - Estimated Frequency : 819.8 MHz
+@P:  ARBITER_TOP|PLDCLK - Requested Frequency : 0.1 MHz
+@P:  ARBITER_TOP|PLDCLK - Estimated Period : 1.220
+@P:  ARBITER_TOP|PLDCLK - Requested Period : 19531.250
+@P:  ARBITER_TOP|PLDCLK - Slack : 19530.030
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 0.000
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 10.000
+@P:  Total Area : 5.0
+@P:  CPU Time : 0h:00m:06s

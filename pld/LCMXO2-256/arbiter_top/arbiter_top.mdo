@@ -1,0 +1,15 @@
+if {![file exists "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top/arbiter_top.mpf"]} { 
+	project new "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top" arbiter_top
+	project addfile "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/arbiter_top.vhd"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/arbiter_top.vhd"
+} else {
+	project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top/arbiter_top"
+	project compileoutofdate
+}
+vsim -voptargs=+acc -L work -L pmi_work -L ovi_machxo2  ARBITER_TOP
+view wave
+add wave /*
+run 1000ns

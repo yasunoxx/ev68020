@@ -1,0 +1,5 @@
+-devfile "C:/tools/ispLEVER_Classic2_1/ispcpld/data/lc2k/la2096_128q.dev"
+-lci ev68020_arbiter.lct
+-touch ev68020_arbiter.ir0
+-src ev68020_arbiter.emf
+-type EDIF

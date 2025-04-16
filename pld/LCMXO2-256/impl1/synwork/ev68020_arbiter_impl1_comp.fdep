@@ -1,0 +1,25 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Yasuno\\Documents\\dev\\ev68020\\pld\\LCMXO2-256\\impl1\\synwork\\ev68020_arbiter_impl1_comp.srs|-top|arbiter_top|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-work_is_curlib|0|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\bin64\\c_vhdl.exe":1727134361
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\location.map":1727134414
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\std.vhd":1727134414
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1727134414
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\std1164.vhd":1727134414
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\numeric.vhd":1727134414
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\umr_capim.vhd":1727134414
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\arith.vhd":1727134411
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\unsigned.vhd":1727134414
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\vhd\\hyperents.vhd":1727134414
+#CUR:"C:\\tools\\diamond_3.14\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1614238695
+#CUR:"C:\\Users\\Yasuno\\Documents\\dev\\ev68020\\pld\\LCMXO2-256\\impl1\\arbiter_top.vhd":1736765282
+#CUR:"C:\\tools\\diamond_3.14\\synpbase\\lib\\lucent\\machxo2.vhd":1726552964
+0			"C:\tools\diamond_3.14\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 -1
+#Design Unit to File Association
+module work arbiter_top 1
+arch work arbiter_top schematic 1

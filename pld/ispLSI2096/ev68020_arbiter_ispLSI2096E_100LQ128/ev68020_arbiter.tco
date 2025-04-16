@@ -1,0 +1,50 @@
+
+Tco Path Report:
+-----------------
+
+Design Name: EV68020_ARBITER
+Part Name: ispLSI2096A-100LQ128
+   This report lists all the path delays from a primary input
+   that drives the Clock input of a register, whose Q output
+   drives a primary output
+
+ Tco Path Definition:
+ Tco =  Maximum delay from primary input to register clock_pin 
+      + Maximum delay of register  clock-to-Q
+      + Maximum delay from register Q_output to primary output
+
+
+Tco Paths:
+
+  Register            Source              Destination              Path Delay
+  Name                Reference Clock     Primary Output             [ns]
+==----------------------------------------------------------------------------------
+  GLB_N_49            PLDCLK              INV_...AVEC *1           6.00  
+  GLB_N_47            PLDCLK              INV_CPU                  6.00  
+  GLB_N_44            PLDCLK              INV_RD                   15.00 
+  GLB_N_44            PLDCLK              INV_WRU                  15.00 
+  GLB_N_44            PLDCLK              INV_WRUU                 15.00 
+  GLB_N_44            PLDCLK              INV_WRLM                 15.00 
+  GLB_N_44            PLDCLK              INV_WR                   15.00 
+  GLB_N_44            PLDCLK              INV_WRL                  15.00 
+  GLB_N_44            PLDCLK              INV_WRLL                 15.00 
+  GLB_N_44            PLDCLK              INV_WRUM                 15.00 
+  GLB_N_59            PLDCLK              INV_...ACK1 *2           6.00  
+  GLB_N_55            PLDCLK              INV_...ACK0 *3           6.00  
+  GLB_N_19            PLDCLK              INV_WRL                  15.00 
+  GLB_N_16            PLDCLK              INV_WRU                  15.40 
+  GLB_N_14            PLDCLK              INV_WRLL                 15.00 
+  GLB_N_10            PLDCLK              INV_WRLM                 15.00 
+  GLB_N_6             PLDCLK              INV_WRUM                 15.00 
+  GLB_N_2             PLDCLK              INV_WRUU                 15.00 
+  GLB_N_21            PLDCLK              INV_RD                   15.00 
+  GLB_N_21            PLDCLK              INV_WR                   15.00 
+==--------------------------------------------------------------------------------
+
+Index Name Table
+==----------------------------------------
+    *1  INV_IACK_AVEC
+    *2  INV_MPU_DSACK1
+    *3  INV_MPU_DSACK0
+==----------------------------------------
+

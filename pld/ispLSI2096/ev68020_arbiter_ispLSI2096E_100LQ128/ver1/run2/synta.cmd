@@ -1,0 +1,1 @@
+C:\tools\ispLEVER_Classic2_1\ispcomp\bin\ta.exe -f -su -tpd -tco ev68020_arbiter 

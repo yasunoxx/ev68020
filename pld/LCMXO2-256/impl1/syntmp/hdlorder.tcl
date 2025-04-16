@@ -1,0 +1,1 @@
+project -fileorder "C:/tools/diamond_3.14/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/arbiter_top.vhd" 

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Bitgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo2c00.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PARTrace">
+        <Message>
+            <ID>70001062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FREQUENCY PORT &quot;PLDCLK&quot; 0.000000 MHz ;
+</Dynamic>
+        </Message>
+        <Message>
+            <ID>70001062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FREQUENCY PORT &quot;PLDCLK&quot; 0.000000 MHz ;
+</Dynamic>
+        </Message>
+        <Message>
+            <ID>70001062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FREQUENCY PORT &quot;PLDCLK&quot; 0.000000 MHz ;
+</Dynamic>
+        </Message>
+        <Message>
+            <ID>70001062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FREQUENCY PORT &quot;PLDCLK&quot; 0.000000 MHz ;
+</Dynamic>
+        </Message>
+    </Task>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1104084</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>FREQUENCY PORT &quot;PLDCLK&quot; 0.000000 MHz ;
+</Dynamic>
+            <Dynamic>FREQUENCY PORT &quot;PLDCLK&quot; 0.000000 MHz ;
+</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>60001113</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>-i, -c, -e</Dynamic>
+            <Dynamic>-r</Dynamic>
+        </Message>
+        <Message>
+            <ID>1152128</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>70001062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FREQUENCY PORT &quot;PLDCLK&quot; 0.000000 MHz ;
+</Dynamic>
+        </Message>
+        <Message>
+            <ID>62001003</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="Jedecgen">
+        <Message>
+            <ID>71001181</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>70</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_1</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_2</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_3</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_4</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_5</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_6</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_7</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_8</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_9</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_10</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_11</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_12</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_13</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_14</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_15</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_16</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_17</Dynamic>
+        </Message>
+        <Message>
+            <ID>71001147</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SLICE_18</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo2c00.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd&quot;:44:10:44:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd&quot;:45:10:45:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\arbiter_top.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN246 |Failed to find top-level module 'arbiter_top' as specified in project file</Dynamic>
+            <Navigation>BN246</Navigation>
+            <Navigation>Failed to find top-level module 'arbiter_top' as specified in project file</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT453 :&quot;c:/users/yasuno/documents/dev/ev68020/pld/lcmxo2-256/impl1/autoconstraint_arbiter_top.sdc&quot;:3:0:3:0|clock period is too long for clock ARBITER_TOP|PLDCLK, changing period from 10000000.0 to 19531.2 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 9765.6 ns.</Dynamic>
+            <Navigation>MT453</Navigation>
+            <Navigation>c:/users/yasuno/documents/dev/ev68020/pld/lcmxo2-256/impl1/autoconstraint_arbiter_top.sdc</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>clock period is too long for clock ARBITER_TOP|PLDCLK, changing period from 10000000.0 to 19531.2 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 9765.6 ns. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MF511 |Found issues with constraints. Please check constraint checker report &quot;C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\ev68020_arbiter_impl1_cck.rpt&quot; .</Dynamic>
+            <Navigation>MF511</Navigation>
+            <Navigation>Found issues with constraints. Please check constraint checker report &quot;C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\ev68020_arbiter_impl1_cck.rpt&quot; .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd&quot;:332:3:332:6|Blackbox ND2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd</Navigation>
+            <Navigation>332</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>332</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Blackbox ND2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd&quot;:296:3:296:6|Blackbox NR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd</Navigation>
+            <Navigation>296</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>296</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Blackbox NR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd&quot;:290:3:290:6|Blackbox NR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd</Navigation>
+            <Navigation>290</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>290</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Blackbox NR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd&quot;:286:3:286:6|Blackbox NR2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd</Navigation>
+            <Navigation>286</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>286</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Blackbox NR2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd&quot;:272:3:272:6|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd</Navigation>
+            <Navigation>272</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>272</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd&quot;:210:3:210:6|Blackbox ND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd</Navigation>
+            <Navigation>210</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>210</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Blackbox ND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

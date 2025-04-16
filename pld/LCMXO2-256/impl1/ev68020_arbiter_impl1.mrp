@@ -1,0 +1,270 @@
+
+         Lattice Mapping Report File for Design Module 'ARBITER_TOP'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-256HC -t TQFP100 -s 4 -oc Commercial
+     ev68020_arbiter_impl1.ngd -o ev68020_arbiter_impl1_map.ncd -pr
+     ev68020_arbiter_impl1.prf -mp ev68020_arbiter_impl1.mrp -lpf C:/Users/Yasun
+     o/Documents/dev/ev68020/pld/LCMXO2-256/impl1/ev68020_arbiter_impl1_synplify
+     .lpf -lpf C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/impl1/ev6802
+     0_arbiter_impl1_synplify.lpf -c 0 -u -gui -msgset
+     C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-256HCTQFP100
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.14.0.75.2
+Mapped on:  01/13/25  19:49:36
+
+Design Summary
+--------------
+
+   Number of registers:     17 out of   424 (4%)
+      PFU registers:           17 out of   256 (7%)
+      PIO registers:            0 out of   168 (0%)
+   Number of SLICEs:        18 out of   128 (14%)
+      SLICEs as Logic/ROM:     18 out of   128 (14%)
+      SLICEs as RAM:            0 out of    96 (0%)
+      SLICEs as Carry:          0 out of   128 (0%)
+   Number of LUT4s:         35 out of   256 (14%)
+      Number used as logic LUTs:         35
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 30 + 4(JTAG) out of 56 (61%)
+   Number of block RAMs:  0 out of 0
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net I_PLDCLK: 11 loads, 11 rising, 0 falling (Driver: PIO PLDCLK )
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net N_206: 8 loads
+     Net N_212: 8 loads
+
+                                    Page 1
+
+
+
+
+Design:  ARBITER_TOP                                   Date:  01/13/25  19:49:36
+
+Design Summary (cont)
+---------------------
+     Net N_218: 8 loads
+     Net N_201: 7 loads
+     Net N_208: 7 loads
+     Net N_220: 7 loads
+     Net N_152: 5 loads
+     Net N_153: 2 loads
+     Net N_154: 2 loads
+     Net N_182: 2 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Pref conflicts. Ignoring FREQUENCY PORT "PLDCLK" 0.000000 MHz ;
+        Keeping FREQUENCY PORT "PLDCLK" 0.000000 MHz ;
+     .
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| INV_MPU_DSACK1      | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_AS              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WRUU            | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WRUM            | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WRLM            | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WRLL            | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WRU             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WRL             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WR              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_RD              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_CPU             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_IACK_AVEC       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_MPU_DSACK0      | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  ARBITER_TOP                                   Date:  01/13/25  19:49:36
+
+IO (PIO) Attributes (cont)
+--------------------------
+| SIZ1                | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SIZ0                | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| A1                  | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| A0                  | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_DS              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| R_W                 | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PLDCLK              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WAIT2           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_SEL_0           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_SEL_4toB        | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_FC0             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_FC2             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_FC1             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_SEL_F           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_SEL_C           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_WAIT1           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| INV_SEL_1           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC_0 undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND_0 undriven or does not drive anything - clipped.
+Signal N_225 was merged into signal N_212
+Signal N_205 was merged into signal N_208
+Signal N_217 was merged into signal N_201
+Signal N_222 was merged into signal N_206
+Signal N_57 was merged into signal N_56
+Signal VCC undriven or does not drive anything - clipped.
+Block I234 was optimized away.
+Block I233 was optimized away.
+Block I232 was optimized away.
+Block I231 was optimized away.
+Block I202 was optimized away.
+
+     
+
+
+
+                                    Page 3
+
+
+
+
+Design:  ARBITER_TOP                                   Date:  01/13/25  19:49:36
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 29 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 4
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights
+     reserved.

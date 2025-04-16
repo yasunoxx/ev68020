@@ -1,0 +1,152 @@
+<html><body><samp><pre>
+<!@TC:1733557746>
+# Sat Dec  7 16:49:03 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\tools\diamond_3.14\synpbase
+OS: Windows 10 or later
+Hostname: 4400JPY
+
+Implementation : impl1
+<a name=mapperReport15></a>Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 182MB peak: 182MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 197MB)
+
+<font color=#A52A2A>@W:<a href="@W:BN246:@XP_HELP">BN246</a> : <!@TM:1733557746> | Failed to find top-level module 'arbiter_top' as specified in project file</font> 
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1733557746> | No constraint file specified. 
+Linked File:  <a href="C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\impl1_scck.rpt:@XP_FILE">impl1_scck.rpt</a>
+See clock summary report "C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\impl1_scck.rpt"
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1733557746> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1733557746> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1733557746> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 197MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 197MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 202MB peak: 202MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 202MB peak: 204MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+@N:<a href="@N:FX1184:@XP_HELP">FX1184</a> : <!@TM:1733557746> | Applying syn_allowed_resources blockrams=0 on top level netlist ARBITER_TOP  
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
+
+
+
+<a name=mapperReport16></a>Clock Summary</a>
+******************
+
+          Start                  Requested     Requested     Clock        Clock               Clock
+Level     Clock                  Frequency     Period        Type         Group               Load 
+---------------------------------------------------------------------------------------------------
+0 -       System                 1.0 MHz       1000.000      system       system_clkgroup     0    
+                                                                                                   
+0 -       ARBITER_TOP|PLDCLK     1.0 MHz       1000.000      inferred     (multiple)          12   
+===================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                       Clock     Source           Clock Pin       Non-clock Pin     Non-clock Pin
+Clock                  Load      Pin              Seq Example     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------
+System                 0         -                -               -                 -            
+                                                                                                 
+ARBITER_TOP|PLDCLK     12        PLDCLK(port)     I174.CK         -                 I116.I(IB)   
+=================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\users\yasuno\documents\dev\ev68020\pld\lcmxo2-256\impl1\arbiter_top.vhd:218:3:218:7:@W:MT529:@XP_MSG">arbiter_top.vhd(218)</a><!@TM:1733557746> | Found inferred clock ARBITER_TOP|PLDCLK which controls 12 sequential elements including I204. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+<a name=clockReport17></a>#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[</a>
+
+1 non-gated/non-generated clock tree(s) driving 12 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+<a href="@|L:C:\Users\Yasuno\Documents\dev\ev68020\pld\LCMXO2-256\impl1\synwork\impl1_prem.srm@|S:I116.O@|E:I204@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0 @XP_NAMES_BY_PROP">ClockId_0_0</a>       I116.O              IB                     12         I204           
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1733557746> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 257MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 258MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sat Dec  7 16:49:06 2024
+
+###########################################################]
+
+</pre></samp></body></html>

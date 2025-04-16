@@ -1,0 +1,9 @@
+#Start recording tcl command: 1/10/2025 02:50:39
+#Project Location: C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256; Project name: ev68020_arbiter
+prj_project open "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/ev68020_arbiter.ldf"
+pwc_command open -project "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top_64MHz_worst.pcf"
+pwc_thermal set -board Small -heatsink NoHeatSink -airflow 0
+pwc_command save -project "C:/Users/Yasuno/Documents/dev/ev68020/pld/LCMXO2-256/arbiter_top_64MHz_worst.pcf"
+prj_project save
+prj_project close
+#Stop recording: 1/10/2025 02:55:36

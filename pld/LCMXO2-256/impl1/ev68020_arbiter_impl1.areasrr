@@ -1,0 +1,28 @@
+----------------------------------------------------------------------
+Report for cell ARBITER_TOP.schematic
+
+Register bits: 4 of 256 (2%)
+Latch bits:      13
+PIC Latch:       0
+I/O cells:       30
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        8       100.0
+                               AND3        6       100.0
+                             FD1S1A       13       100.0
+                            FD1S3AX        4       100.0
+                                GSR        1       100.0
+                                 IB       18       100.0
+                                INV        5       100.0
+                                ND2       10       100.0
+                                ND3        1       100.0
+                                NR2        7       100.0
+                                NR3        3       100.0
+                                NR4        2       100.0
+                                 OB       12       100.0
+                                OR2        3       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            96           
